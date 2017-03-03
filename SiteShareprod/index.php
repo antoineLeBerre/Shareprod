@@ -9,7 +9,7 @@ include_once ("core/core_model/count.php");
 include_once ("core/core_model/lire_table.php");
 include_once ("core/core_model/delete_rows.php");
 include_once ("core/core_model/insert_row.php");
-include_once ("app/config/config.inc.php");
+include_once("app/config/config.inc.php");
 include_once ("librairies/secu_sessionStart.php");
 
 if (!mySessionStart()) {

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9de2103-b570-4626-afda-558ac53327b5" name="Default" comment="">
+<<<<<<< HEAD
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/SiteShareprod/webroot/style/style.css" afterPath="" />
       <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/clockh.js" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/js/clockh.js" />
@@ -108,6 +109,10 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/index-digital.html" afterPath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/index-digital.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/index.html" afterPath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/login.html" afterPath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/login.html" />
+=======
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SiteShareprod/app" afterPath="$PROJECT_DIR$/SiteShareprod/app" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SiteShareprod/index.php" afterPath="$PROJECT_DIR$/SiteShareprod/index.php" />
+>>>>>>> 033aae45846193240f62f1b939350710d2d12516
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -122,16 +127,25 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
+<<<<<<< HEAD
       <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SiteShareprod/app/view/layout/header.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1016">
               <caret line="226" column="0" lean-forward="true" selection-start-line="226" selection-start-column="0" selection-end-line="226" selection-end-column="0" />
+=======
+      <file leaf-file-name="config.inc.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SiteShareprod/app/view/layout/config/config.inc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+>>>>>>> 033aae45846193240f62f1b939350710d2d12516
               <folding />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/index.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -159,6 +173,13 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+=======
+      <file leaf-file-name="pdo.inc.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SiteShareprod/app/model/pdo.inc.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+>>>>>>> 033aae45846193240f62f1b939350710d2d12516
               <folding />
             </state>
           </provider>
@@ -166,6 +187,7 @@
       </file>
     </leaf>
   </component>
+<<<<<<< HEAD
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -173,17 +195,24 @@
       </list>
     </option>
   </component>
+=======
+>>>>>>> 033aae45846193240f62f1b939350710d2d12516
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/SiteShareprod/app/controller/index.php" />
         <option value="$PROJECT_DIR$/SiteShareprod/app/controller/admin/index.php" />
         <option value="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/index.html" />
         <option value="$PROJECT_DIR$/SiteShareprod/app/view/layout/header.html" />
         <option value="$PROJECT_DIR$/SiteShareprod/index.php" />
+=======
+        <option value="$PROJECT_DIR$/SiteShareprod/app/config/config.inc.php" />
+        <option value="$PROJECT_DIR$/SiteShareprod/app/model/pdo.inc.php" />
+>>>>>>> 033aae45846193240f62f1b939350710d2d12516
       </list>
     </option>
   </component>
@@ -218,7 +247,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
       <pane id="Scratches" />
+=======
+>>>>>>> 033aae45846193240f62f1b939350710d2d12516
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -260,6 +292,7 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+<<<<<<< HEAD
               <option name="myItemId" value="webroot" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
@@ -323,6 +356,13 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="in-admin-panel" />
+=======
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+>>>>>>> 033aae45846193240f62f1b939350710d2d12516
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
@@ -369,6 +409,13 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+<<<<<<< HEAD
+=======
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+>>>>>>> 033aae45846193240f62f1b939350710d2d12516
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -387,6 +434,7 @@
               <option name="myItemId" value="app" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+<<<<<<< HEAD
             <PATH_ELEMENT>
               <option name="myItemId" value="controller" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
@@ -395,9 +443,12 @@
               <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
+=======
+>>>>>>> 033aae45846193240f62f1b939350710d2d12516
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -415,6 +466,11 @@
       <recent name="C:\wamp64\www\Shareprod\SiteShareprod\webroot\js" />
       <recent name="C:\wamp64\www\Shareprod\SiteShareprod\webroot" />
       <recent name="C:\wamp64\www\Shareprod\SiteShareprod\app\controller\admin" />
+    </key>
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\Shareprod\SiteShareprod\app\view\layout" />
     </key>
   </component>
   <component name="RunManager">
@@ -489,11 +545,16 @@
       <option name="presentableId" value="Default" />
       <updated>1488279172496</updated>
       <workItem from="1488279193993" duration="1262000" />
+<<<<<<< HEAD
       <workItem from="1488489436655" duration="6237000" />
+=======
+      <workItem from="1488491311962" duration="8475000" />
+>>>>>>> 033aae45846193240f62f1b939350710d2d12516
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="7499000" />
   </component>
   <component name="ToolWindowManager">
@@ -501,6 +562,15 @@
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+    <option name="totallyTimeSpent" value="9737000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 033aae45846193240f62f1b939350710d2d12516
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -530,6 +600,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/SiteShareprod/app/controller/admin/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="216">
@@ -560,14 +631,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1016">
           <caret line="226" column="0" lean-forward="true" selection-start-line="226" selection-start-column="0" selection-end-line="226" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/SiteShareprod/app/view/layout/config/config.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+>>>>>>> 033aae45846193240f62f1b939350710d2d12516
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/SiteShareprod/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+=======
+    <entry file="file://$PROJECT_DIR$/SiteShareprod/app/model/pdo.inc.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+>>>>>>> 033aae45846193240f62f1b939350710d2d12516
           <folding />
         </state>
       </provider>
