@@ -6,4 +6,7 @@
  * Time: 23:40
  */
 
-include_once ("app/view/layout/header.html");
+$tableUsers = lire_table("sp_users");
+$tabProjet = lire_table("sp_projets");
+
+include_once ("app/view/admin/index.php");
