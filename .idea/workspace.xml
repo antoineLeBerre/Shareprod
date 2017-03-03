@@ -2,7 +2,112 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b9de2103-b570-4626-afda-558ac53327b5" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bdd_shareprod.mwb" afterPath="$PROJECT_DIR$/bdd_shareprod.mwb" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/SiteShareprod/webroot/style/style.css" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/clockh.js" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/js/clockh.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/clockp.js" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/js/clockp.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/ddaccordion.js" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/js/ddaccordion.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/Thumbs.db" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/Thumbs.db" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/arrow.gif" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/arrow.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/bg.jpg" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/bg.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/botleft.jpg" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/botleft.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/botright.jpg" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/botright.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/bt_blue_center.gif" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/bt_blue_center.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/bt_blue_left.gif" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/bt_blue_left.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/bt_blue_r.gif" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/bt_blue_r.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/bt_green_center.gif" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/bt_green_center.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/bt_green_left.gif" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/bt_green_left.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/bt_green_r.gif" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/bt_green_r.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/bt_red_center.gif" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/bt_red_center.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/bt_red_left.gif" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/bt_red_left.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/bt_red_r.gif" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/bt_red_r.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/bubble.png" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/bubble.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/button.png" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/button.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/buttonn.png" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/buttonn.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/buttony.png" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/buttony.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/comment.png" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/comment.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/error.png" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/error.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/footer_bg.jpg" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/footer_bg.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/green_bt.gif" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/green_bt.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/green_bt_a.gif" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/green_bt_a.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/help.png" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/help.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/indeziner_logo.gif" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/indeziner_logo.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/info.png" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/info.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/left.jpg" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/left.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/list_bullet.gif" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/list_bullet.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/login_bg.png" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/login_bg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/logo.gif" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/logo.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/menu_bg.gif" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/menu_bg.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/menu_bg.jpg" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/menu_bg.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/menu_bg_a.gif" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/menu_bg_a.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/minus.gif" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/minus.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/notice.png" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/notice.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/photo.png" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/photo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/plus.gif" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/plus.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/red_bt.gif" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/red_bt.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/red_bt_a.gif" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/red_bt_a.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/right.jpg" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/right.jpg" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/search.png" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/search.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/sidebar_box_bottom.gif" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/sidebar_box_bottom.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/sidebar_box_top.gif" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/sidebar_box_top.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/sidebar_menu_top.gif" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/sidebar_menu_top.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/sidebar_menu_top_a.gif" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/sidebar_menu_top_a.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/trash.png" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/trash.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/user_edit.png" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/user_edit.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/user_logout.png" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/user_logout.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/valid.png" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/valid.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/images/warning.png" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/images/warning.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/img/0.png" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/img/0.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/img/Thumbs.db" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/img/Thumbs.db" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/img/button-left.gif" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/img/button-left.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/img/button-left.png" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/img/button-left.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/img/button-right.gif" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/img/button-right.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/img/button-right.png" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/img/button-right.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/img/button.gif" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/img/button.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/img/button.png" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/img/button.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/img/checkbox.gif" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/img/checkbox.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/img/checkbox.png" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/img/checkbox.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/img/file.gif" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/img/file.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/img/file.png" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/img/file.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/img/input-left.gif" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/img/input-left.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/img/input-left.png" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/img/input-left.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/img/input-right.gif" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/img/input-right.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/img/input-right.png" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/img/input-right.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/img/input.gif" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/img/input.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/img/input.png" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/img/input.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/img/radio.gif" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/img/radio.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/img/radio.png" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/img/radio.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/img/select-left.gif" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/img/select-left.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/img/select-left.png" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/img/select-left.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/img/select-right.gif" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/img/select-right.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/img/select-right.png" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/img/select-right.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/img/textarea-bl.gif" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/img/textarea-bl.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/img/textarea-bl.png" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/img/textarea-bl.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/img/textarea-br.gif" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/img/textarea-br.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/img/textarea-br.png" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/img/textarea-br.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/img/textarea-l-off.gif" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/img/textarea-l-off.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/img/textarea-l-off.png" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/img/textarea-l-off.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/img/textarea-l-over.png" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/img/textarea-l-over.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/img/textarea-r-off.gif" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/img/textarea-r-off.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/img/textarea-r-off.png" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/img/textarea-r-off.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/img/textarea-r-over.png" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/img/textarea-r-over.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/img/textarea-tl.gif" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/img/textarea-tl.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/img/textarea-tl.png" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/img/textarea-tl.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/img/textarea-tr.gif" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/img/textarea-tr.gif" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/img/textarea-tr.png" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/img/textarea-tr.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/jconfirmaction.jquery.js" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/js/jconfirmaction.jquery.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/jquery-1.4.2.min.js" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/js/jquery-1.4.2.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/jquery.jclock-1.2.0.js.txt" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/js/jquery.jclock-1.2.0.js.txt" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/jquery.min.js" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/js/jquery.min.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/niceforms-default.css" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/css/niceforms-default.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/niceforms.js" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/js/niceforms.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/style.css" afterPath="$PROJECT_DIR$/SiteShareprod/webroot/css/style.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SiteShareprod/index.php" afterPath="$PROJECT_DIR$/SiteShareprod/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/index-digital.html" afterPath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/index-digital.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/index.html" afterPath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/login.html" afterPath="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/login.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,8 +120,72 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="header.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SiteShareprod/app/view/layout/header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1016">
+              <caret line="226" column="0" lean-forward="true" selection-start-line="226" selection-start-column="0" selection-end-line="226" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2879">
+              <caret line="492" column="4" lean-forward="true" selection-start-line="492" selection-start-column="4" selection-end-line="492" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SiteShareprod/app/controller/admin/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+              <folding>
+                <element signature="e#6#86#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SiteShareprod/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/SiteShareprod/app/controller/index.php" />
+        <option value="$PROJECT_DIR$/SiteShareprod/app/controller/admin/index.php" />
+        <option value="$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/index.html" />
+        <option value="$PROJECT_DIR$/SiteShareprod/app/view/layout/header.html" />
+        <option value="$PROJECT_DIR$/SiteShareprod/index.php" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -29,10 +198,10 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+    <option name="x" value="-11" />
+    <option name="y" value="-11" />
+    <option name="width" value="1942" />
+    <option name="height" value="1042" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -49,8 +218,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -63,6 +232,170 @@
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shareprod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shareprod" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SiteShareprod" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shareprod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shareprod" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SiteShareprod" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webroot" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shareprod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shareprod" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SiteShareprod" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webroot" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shareprod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shareprod" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SiteShareprod" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shareprod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shareprod" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SiteShareprod" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="template" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="in-admin-panel" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shareprod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shareprod" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SiteShareprod" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layout" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shareprod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shareprod" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SiteShareprod" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shareprod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Shareprod" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SiteShareprod" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -71,6 +404,18 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="js.eslint.eslintPackage" value="" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files (x86)/nodejs/node" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="js-jscs-nodeInterpreter" value="C:\Program Files (x86)\nodejs\node.exe" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\Shareprod\SiteShareprod\webroot\css" />
+      <recent name="C:\wamp64\www\Shareprod\SiteShareprod\webroot\js" />
+      <recent name="C:\wamp64\www\Shareprod\SiteShareprod\webroot" />
+      <recent name="C:\wamp64\www\Shareprod\SiteShareprod\app\controller\admin" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
@@ -101,6 +446,12 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
@@ -138,31 +489,32 @@
       <option name="presentableId" value="Default" />
       <updated>1488279172496</updated>
       <workItem from="1488279193993" duration="1262000" />
+      <workItem from="1488489436655" duration="6237000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1262000" />
+    <option name="totallyTimeSpent" value="7499000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
-    <editor active="false" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947916" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
@@ -176,5 +528,49 @@
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/SiteShareprod/app/controller/admin/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="8" column="20" lean-forward="false" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <element signature="e#6#86#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/standardSchemas/xhtml1-transitional.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="424" column="10" lean-forward="false" selection-start-line="424" selection-start-column="10" selection-end-line="424" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SiteShareprod/template/in-admin-panel/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2879">
+          <caret line="492" column="4" lean-forward="true" selection-start-line="492" selection-start-column="4" selection-end-line="492" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SiteShareprod/app/view/layout/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1016">
+          <caret line="226" column="0" lean-forward="true" selection-start-line="226" selection-start-column="0" selection-end-line="226" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SiteShareprod/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>

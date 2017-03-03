@@ -1,5 +1,4 @@
 <?php
-define('BASE_URL', true);
 
 include_once ("app/model/pdo.inc.php");
 include_once ("core/core_view/paginet.php");
