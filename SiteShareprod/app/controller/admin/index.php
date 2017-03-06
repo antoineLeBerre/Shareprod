@@ -6,7 +6,9 @@
  * Time: 23:40
  */
 
-$tableUsers = lire_table("sp_users");
-$tabProjet = lire_table("sp_projets");
+$tab = ["1", "2", "3", "4", "5", "6", "7", "8"];
+$tables = ["sp_users", "sp_projets"];
+//$tableUsers = lire_tables("sp_users");
+$tabProjet = lire_tables($tables, array("WHERE"=>$tab, "ORDER"));
 
 include_once ("app/view/admin/index.php");
