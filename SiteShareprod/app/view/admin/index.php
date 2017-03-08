@@ -2,7 +2,7 @@
 
     <div class="right_content">
 
-        <h2>Products Categories Settings</h2>
+        <h2>Affichage des tables de la BDD</h2>
 
 
         <table id="rounded-corner" summary="2007 Major IT Companies' Profit">
@@ -21,47 +21,41 @@
             </tr>
             </thead>
             <tfoot>
-            <tr>
-                <td colspan="6" class="rounded-foot-left"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</em></td>
-                <td class="rounded-foot-right">&nbsp;</td>
-
-            </tr>
             </tfoot>
             <tbody>
             <?php
-            foreach ($tableUsers as $tableUser){
-                echo "<tr>";
-                echo "<td>".$tableUser[1]."</td>";
-                echo "<td>".$tableUser[2]."</td>";
-                echo "<td>".$tableUser[3]."</td>";
-                echo "<td>".$tableUser[4]."</td>";
-                echo "<td>".$tableUser[5]."</td>";
-                echo "<td>".$tableUser[6]."</td>";
-                echo "<td>".$tableUser[7]."</td>";
-                echo "<td>".$tableUser[8]."</td>";
-                echo "<td><a href=''#'><img src='webroot/images/user_edit.png' lt='' title='' border='0' /></a></td>";
-                echo '<td><a href="#" class="ask"><img src="webroot/images/trash.png" alt="" title="" border="0" /></a></td>';
-                echo "</tr>";
-            }
+            for ($i = 0, $i <= $nbAffiche, $i++){
+                ?>
+                <tr>
+                    <td><?= $tableUsers[$i]["nom_users"] ?></td>
+                    <td><?= $tableUsers[$i]["prenom_users"] ?></td>
+                    <td><?= $tableUsers[$i]["login_users"] ?></td>
+                    <td><?= $tableUsers[$i][4] ?></td>
+                    <td><?= $tableUsers[$i][5] ?></td>
+                    <td><?= $tableUsers[$i][6] ?></td>
+                    <td><?= $tableUsers[$i][7] ?></td>
+                    <td><?= $tableUsers[$i][8] ?></td>
+                    <td><a href='#'><img src='webroot/images/user_edit.png' alt='Bouton editer' title='' border='0' /></a></td>
+                    <td><a href="#" class="ask"><img src="webroot/images/trash.png" alt="" title="" border="0" /></a></td>
+                </tr>
+            <?php }
             ?>
             </tbody>
         </table>
 
         <a href="#" class="bt_green"><span class="bt_green_lft"></span><strong>Add new item</strong><span class="bt_green_r"></span></a>
-        <a href="#" class="bt_blue"><span class="bt_blue_lft"></span><strong>View all items from category</strong><span class="bt_blue_r"></span></a>
-        <a href="#" class="bt_red"><span class="bt_red_lft"></span><strong>Delete items</strong><span class="bt_red_r"></span></a>
+        <a href="?module=admin&action=afficher_user" class="bt_blue"><span class="bt_blue_lft"></span><strong>Afficher la table Utilisateurs</strong><span class="bt_blue_r"></span></a>
 
         <table id="rounded-corner" summary="2007 Major IT Companies' Profit">
             <thead>
             <tr>
+                <th scope="col" class="rounded">Titre</th>
                 <th scope="col" class="rounded">Nom</th>
-                <th scope="col" class="rounded">Prenom</th>
-                <th scope="col" class="rounded">Login</th>
-                <th scope="col" class="rounded">Password</th>
-                <th scope="col" class="rounded">Date d'inscription</th>
-                <th scope="col" class="rounded">E-mail</th>
                 <th scope="col" class="rounded">Description</th>
-                <th scope="col" class="rounded">Avatar</th>
+                <th scope="col" class="rounded">Date de début</th>
+                <th scope="col" class="rounded">Date de fin</th>
+                <th scope="col" class="rounded">Avancement</th>
+                <th scope="col" class="rounded">Appartient à</th>
                 <th scope="col" class="rounded">Edit</th>
                 <th scope="col" class="rounded-q4">Delete</th>
             </tr>
@@ -75,20 +69,19 @@
             </tfoot>
             <tbody>
             <?php
-            foreach ($tableUsers as $tableUser){
-                echo "<tr>";
-                echo "<td>".$tableUser[1]."</td>";
-                echo "<td>".$tableUser[2]."</td>";
-                echo "<td>".$tableUser[3]."</td>";
-                echo "<td>".$tableUser[4]."</td>";
-                echo "<td>".$tableUser[5]."</td>";
-                echo "<td>".$tableUser[6]."</td>";
-                echo "<td>".$tableUser[7]."</td>";
-                echo "<td>".$tableUser[8]."</td>";
-                echo "<td><a href=''#'><img src='webroot/images/user_edit.png' lt='' title='' border='0' /></a></td>";
-                echo '<td><a href="#" class="ask"><img src="webroot/images/trash.png" alt="" title="" border="0" /></a></td>';
-                echo "</tr>";
-            }
+            foreach ($tabProjets as $tabProject){ ?>
+                <tr>
+                    <td><?= $tabProject["titre_projets"] ?></td>
+                    <td><?= $tabProject["nom_projets"] ?></td>
+                    <td><?= $tabProject["description_projets"] ?></td>
+                    <td><?= $tabProject["date_debut_projets"] ?></td>
+                    <td><?= $tabProject["date_fin_projets"] ?></td>
+                    <td><?= $tabProject["avancement_projets"] ?></td>
+                    <td><?= $tabProject["login_users"] ?></td>
+                    <td><a href='#'><img src='webroot/images/user_edit.png' lt='' title='' border='0' /></a></td>
+                    <td><a href="#" class="ask"><img src="webroot/images/trash.png" alt="" title="" border="0" /></a></td>
+                </tr>
+            <?php }
             ?>
             </tbody>
         </table>

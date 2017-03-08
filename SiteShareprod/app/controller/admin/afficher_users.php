@@ -6,8 +6,8 @@
  * Time: 01:35
  */
 
-$tableUsers = lire_table("sp_users");
+$tableUsers = lire_tables("sp_users");
 
-include_once ("app/view/admin/afficher_user.php");
+include_once ("app/view/admin/afficher_users.php");
 
 
