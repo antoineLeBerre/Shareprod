@@ -57,7 +57,7 @@
                 <th scope="col" class="rounded">Date de début</th>
                 <th scope="col" class="rounded">Date de fin</th>
                 <th scope="col" class="rounded">Avancement</th>
-                <th scope="col" class="rounded">Appartient à</th>
+                <th scope="col" class="rounded">Auteur</th>
                 <th scope="col" class="rounded">Edit</th>
                 <th scope="col" class="rounded-q4">Delete</th>
             </tr>
@@ -80,6 +80,44 @@
                     <td><?= $tabProject["date_fin_projets"] ?></td>
                     <td><?= $tabProject["avancement_projets"] ?></td>
                     <td><?= $tabProject["login_users"] ?></td>
+                    <td><a href='#'><img src='webroot/images/user_edit.png' lt='' title='' border='0' /></a></td>
+                    <td><a href="#" class="ask"><img src="webroot/images/trash.png" alt="" title="" border="0" /></a></td>
+                </tr>
+            <?php }
+            ?>
+            </tbody>
+        </table>
+
+        <a href="#" class="bt_green"><span class="bt_green_lft"></span><strong>Add new item</strong><span class="bt_green_r"></span></a>
+        <a href="#" class="bt_blue"><span class="bt_blue_lft"></span><strong>View all items from category</strong><span class="bt_blue_r"></span></a>
+        <a href="#" class="bt_red"><span class="bt_red_lft"></span><strong>Delete items</strong><span class="bt_red_r"></span></a>
+
+        <table id="rounded-corner" summary="2007 Major IT Companies' Profit">
+            <thead>
+            <tr>
+                <th scope="col" class="rounded">Description</th>
+                <th scope="col" class="rounded">Date commentaire</th>
+                <th scope="col" class="rounded">Auteur</th>
+                <th scope="col" class="rounded">Associé à </th>
+                <th scope="col" class="rounded">Edit</th>
+                <th scope="col" class="rounded-q4">Delete</th>
+            </tr>
+            </thead>
+            <tfoot>
+            <tr>
+                <td colspan="6" class="rounded-foot-left"><em>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</em></td>
+                <td class="rounded-foot-right">&nbsp;</td>
+
+            </tr>
+            </tfoot>
+            <tbody>
+            <?php
+            foreach ($tabCommentaires as $tabCommentaire){ ?>
+                <tr>
+                    <td><?= $tabCommentaire["content_commentaire"] ?></td>
+                    <td><?= $tabCommentaire["date_commentaire"] ?></td>
+                    <td><?= $tabCommentaire["login_users"] ?></td>
+                    <td><?= $tabCommentaire["nom_projets"] ?></td>
                     <td><a href='#'><img src='webroot/images/user_edit.png' lt='' title='' border='0' /></a></td>
                     <td><a href="#" class="ask"><img src="webroot/images/trash.png" alt="" title="" border="0" /></a></td>
                 </tr>

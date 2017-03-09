@@ -47,6 +47,8 @@ function lire_tables($table, $tab_option = array())
 			}
 			$query .= $tab_option["LIMIT"];
 		}
+//		var_dump($query);
+//	    die();
 		$cursor = $pdo->query($query);
 		
 		$cursor->execute();
