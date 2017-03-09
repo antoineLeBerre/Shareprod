@@ -16,6 +16,7 @@
                 <th scope="col" class="rounded">E-mail</th>
                 <th scope="col" class="rounded">Description</th>
                 <th scope="col" class="rounded">Avatar</th>
+                <th scope="col" class="rounded">Temoignage</th>
                 <th scope="col" class="rounded">Edit</th>
                 <th scope="col" class="rounded-q4">Delete</th>
             </tr>
@@ -24,17 +25,18 @@
             </tfoot>
             <tbody>
             <?php
-            for ($i = 0, $i <= $nbAffiche, $i++){
+            foreach ($tableUsers as $tableUser){
                 ?>
                 <tr>
-                    <td><?= $tableUsers[$i]["nom_users"] ?></td>
-                    <td><?= $tableUsers[$i]["prenom_users"] ?></td>
-                    <td><?= $tableUsers[$i]["login_users"] ?></td>
-                    <td><?= $tableUsers[$i][4] ?></td>
-                    <td><?= $tableUsers[$i][5] ?></td>
-                    <td><?= $tableUsers[$i][6] ?></td>
-                    <td><?= $tableUsers[$i][7] ?></td>
-                    <td><?= $tableUsers[$i][8] ?></td>
+                    <td><?= $tableUser["nom_users"] ?></td>
+                    <td><?= $tableUser["prenom_users"] ?></td>
+                    <td><?= $tableUser["login_users"] ?></td>
+                    <td><?= $tableUser["password_users"] ?></td>
+                    <td><?= $tableUser["date_inscription_users"] ?></td>
+                    <td><?= $tableUser["email_users"] ?></td>
+                    <td><?= $tableUser["description_users"] ?></td>
+                    <td><?= $tableUser["avatar_users"] ?></td>
+                    <td><?= $tableUser["temoignage_users"] ?></td>
                     <td><a href='#'><img src='webroot/images/user_edit.png' alt='Bouton editer' title='' border='0' /></a></td>
                     <td><a href="#" class="ask"><img src="webroot/images/trash.png" alt="" title="" border="0" /></a></td>
                 </tr>

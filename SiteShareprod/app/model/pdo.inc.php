@@ -6,7 +6,7 @@ try {
 	/*$connect = "mysql:host=localhost;port=3306;dbname=aleberre";
 	$login = "aleberre";
 	$pass = "145416";*/ //Connextion serveur
-	$connect = "mysql:host=localhost;port=3306;dbname=bdd_shareprod";
+	$connect = "mysql:host=localhost;port=3306;dbname=sp_shareprod";
 	$login = "root";
 	$pass = ""; //Connexion local
 	$option = array(PDO::MYSQL_ATTR_INIT_COMMAND => "SET NAMES utf8", PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION);

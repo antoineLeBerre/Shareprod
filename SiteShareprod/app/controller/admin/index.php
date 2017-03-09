@@ -8,8 +8,22 @@
 
 $options = ["id_users", "user_id_user"];
 $tables = ["sp_projets", "sp_users"];
-$tableUsers = lire_tables("sp_users");
-$tabProjets = lire_tables($tables, array("WHERE"=>$options));
+$tableUsers = lire_tables("sp_users", array("ORDER BY" => "id_users", "ORDER" => "DESC", "LIMIT" => "5"));
+$tabProjets = lire_tables($tables, "sp_users"]), array("WHERE"=>$options, "ORDER BY" => "id_users", "ORDER" => "DESC", "LIMIT" => "5"));
+
+foreach ($tabProjets as $indice=>$tabProjet)
+{
+    if (strlen($tabProjets[$indice]["description_projets"]) > 100){
+        $tabProjets[$indice]["description_projets"] = substr($tabProjets[$indice]["description_projets"], 0, 100)."...";
+    }
+}
+
+foreach ($tabProjets as $indice=>$tabProjet)
+{
+    if (strlen($tabProjets[$indice]["description_projets"]) > 100){
+        $tabProjets[$indice]["description_projets"] = substr($tabProjets[$indice]["description_projets"], 0, 100)."...";
+    }
+}
 
 foreach ($tabProjets as $indice=>$tabProjet)
 {
@@ -19,10 +33,10 @@ foreach ($tabProjets as $indice=>$tabProjet)
 }
 
 if (sizeof($tableUsers) > 5)   {
-    $nbAffichae = 5;
+    $nbAffichage = 5;
 }
 else{
-    $nbAffichae = sizeof($tableUsers);
+    $nbAffichage = sizeof($tableUsers);
 }
 
 
