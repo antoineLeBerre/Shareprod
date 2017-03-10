@@ -13,6 +13,7 @@ $optionsCommentaires = ["id_users", "sp_commentaire.user_id_user", "id_projets",
 $tableUsers = lire_tables("sp_users", array("ORDER BY" => "id_users", "ORDER" => "DESC", "LIMIT" => "5"));
 $tabProjets = lire_tables($tablesProjets, array("WHERE"=>$optionsProjets, "ORDER BY" => "id_users", "ORDER" => "DESC", "LIMIT" => "5"));
 $tabCommentaires = lire_tables($tablesCommentaires, array("WHERE"=>$optionsCommentaires, "ORDER BY" => "id_users", "ORDER" => "DESC", "LIMIT" => "5"));
+$tabSuperUsers = lire_tables("sp_superusers", array("ORDER BY" => "id_superusers", "ORDER" => "DESC", "LIMIT" => "5"));
 
 foreach ($tabProjets as $indice=>$tabProjet)
 {
