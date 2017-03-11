@@ -28,6 +28,7 @@ function insert_row($table, $tab_valeur)
 		}
 		$query .= ")";
 		var_dump($query);
+		die();
 	$cursor = $pdo->exec($query);
 
 	return true;
