@@ -1,9 +1,14 @@
 <component name="ProjectDictionaryState">
-  <dictionary name="user">
+  <dictionary name="User">
     <words>
-      <w>commentaire</w>
-      <w>commentaires</w>
-      <w>indice</w>
+      <w>afficher</w>
+      <w>ajouter</w>
+      <w>prohjets</w>
+      <w>projet</w>
+      <w>projets</w>
+      <w>utilisateirs</w>
+      <w>utilisateur</w>
+      <w>utilisateurs</w>
     </words>
   </dictionary>
 </component>
