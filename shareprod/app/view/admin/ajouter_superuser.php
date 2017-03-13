@@ -10,7 +10,7 @@ include_once ("app/view/layout/header.html")
 ?>
 
     <div class="form">
-        <form action="?module=admin&action=ajouter_user" method="post" class="niceform">
+        <form action="?module=admin&action=ajouter_superuser" method="post" class="niceform">
 
             <fieldset>
                 <dl>
@@ -36,9 +36,9 @@ include_once ("app/view/layout/header.html")
                     <dd><input type="email" name="email_superuser" id="" size="54" /></dd>
                 </dl>
                 <dl>
-                    <dt><label for="projet_commentaire">Projet :</label></dt>
+                    <dt><label for="level_superuser">Projet :</label></dt>
                     <dd>
-                        <select size="1" name="projet_commentaire" id="">
+                        <select size="1" name="level_superuser" id="">
                             <option value="1">Administrateur</option>
                             <option value="2">Moderateur</option>
                         </select>

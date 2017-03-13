@@ -26,7 +26,7 @@
             <td><?= $tabSuperUser["prenom_superusers"] ?></td>
             <td><?= $tabSuperUser["login_superusers"] ?></td>
             <td><?= $tabSuperUser["password_superusers"] ?></td>
-            <td><?= $tabSuperUser["date_inscription_superusers"] ?></td>
+            <td><?= $tabSuperUser["date_inscription_superuser"] ?></td>
             <td><?= $tabSuperUser["email_superusers"] ?></td>
             <td><?= $tabSuperUser["level_superusers"] ?></td>
             <td><a href='#'><img src='webroot/images/user_edit.png' alt='Bouton editer' title='' border='0' /></a></td>

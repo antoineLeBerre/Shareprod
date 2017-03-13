@@ -13,13 +13,15 @@ if (!isset($_POST["contenu_commentaire"])){
     include_once ("app/view/admin/ajouter_commentaire.php");
 }
 else{
-
+    if (empty($_POST["contenu_commentaire"])){
+        location("admin", "ajouter_commentaire", "champVide=nok");
+    }
     $inserer = insert_row("sp_commentaire", array("content_commentaire" => "'".$_POST["contenu_commentaire"]."'", "user_id_user" => $_POST["auteur_commentaire"], "projets_id_projets" => $_POST["projet_commentaire"]));
 
     if (!$inserer){
         location("admin", "ajouter_commentaire", "&insert=nok");
     }
     else{
-        location("admin", "afficher_commentaire", "&insert=ok");
+        location("admin", "afficher_commentaires", "&insert=ok");
     }
 }

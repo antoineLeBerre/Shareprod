@@ -7,20 +7,18 @@
  */
 
 
-if (!isset($_POST["login_user"])){
-    include_once ("app/view/admin/ajouter_user.php");
+if (!isset($_POST["login_superuser"])){
+    include_once ("app/view/admin/ajouter_superuser.php");
 }
 else{
-
-    $today = date("Y-m-d H:i:s");
-    $_POST["password_user"] = md5($_POST["password_user"].SALAGE);
-    $inserer = insert_row("sp_users", array("id_users"=>"NULL", "nom_users"=>"'".$_POST["nom_user"]."'", "prenom_users"=>"'".$_POST["prenom_user"]."'", "login_users"=>"'".$_POST["login_user"]."'", "password_users" => "'".$_POST["password_user"]."'", "date_inscription_users" => "'".$today."'", "email_users" => "'".$_POST["email_user"]."'", "description_users" => "''", "avatar_users" => "''", "temoignage_users" => "''"));
-
-//    var_dump($inserer);
-//    die();
+    if (empty($_POST["nom_superuser"]) || empty($_POST["prenom_superuser"]) || empty($_POST["login_superuser"]) || empty($_POST["password_superuser"]) || empty($_POST["email_superuser"])){
+        location("admin", "ajouter_superuser", "champVide=nok");
+    }
+    $_POST["password_superuser"] = md5($_POST["password_superuser"].SALAGE);
+    $inserer = insert_row("sp_superusers", array("nom_superusers"=>"'".$_POST["nom_superuser"]."'", "prenom_superusers"=>"'".$_POST["prenom_superuser"]."'", "login_superusers"=>"'".$_POST["login_superuser"]."'", "password_superusers" => "'".$_POST["password_superuser"]."'",  "email_superusers" => "'".$_POST["email_superuser"]."'", "level_superusers" => "'".$_POST["level_superuser"]."'"));
 
     if (!$inserer){
-        location("admin", "ajouter_user", "&insert=nok");
+        location("admin", "ajouter_superuser", "&insert=nok");
     }
-    location("admin", "afficher_users", "&insert=ok");
+    location("admin", "afficher_superusers", "&insert=ok");
 }

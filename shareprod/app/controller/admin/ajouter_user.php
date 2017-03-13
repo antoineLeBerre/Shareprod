@@ -12,9 +12,11 @@ if (!isset($_POST["login_user"])){
 }
 else{
 
-    $today = date("Y-m-d H:i:s");
+    if (empty($_POST["nom_user"]) || empty($_POST["prenom_user"]) || empty($_POST["login_user"]) || empty($_POST["password_user"]) || empty($_POST["email_user"])){
+        location("admin", "ajouter_user", "champVide=nok");
+    }
     $_POST["password_user"] = md5($_POST["password_user"].SALAGE);
-    $inserer = insert_row("sp_users", array("id_users"=>"NULL", "nom_users"=>"'".$_POST["nom_user"]."'", "prenom_users"=>"'".$_POST["prenom_user"]."'", "login_users"=>"'".$_POST["login_user"]."'", "password_users" => "'".$_POST["password_user"]."'", "date_inscription_users" => "'".$today."'", "email_users" => "'".$_POST["email_user"]."'", "description_users" => "''", "avatar_users" => "''", "temoignage_users" => "''"));
+    $inserer = insert_row("sp_users", array("nom_users"=>"'".$_POST["nom_user"]."'", "prenom_users"=>"'".$_POST["prenom_user"]."'", "login_users"=>"'".$_POST["login_user"]."'", "password_users" => "'".$_POST["password_user"]."'", "email_users" => "'".$_POST["email_user"]."'", "description_users" => "''", "avatar_users" => "''", "temoignage_users" => "''"));
 
 //    var_dump($inserer);
 //    die();
