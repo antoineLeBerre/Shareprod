@@ -1,18 +1,20 @@
 <?php include_once ("app/view/layout/header.html") ?>
 
-<div class="right_content">
+
 
     <h3>Table Utilisateurs</h3>
     <table id="rounded-corner" summary="2007 Major IT Companies' Profit">
         <thead>
         <tr>
-            <th scope="col" class="rounded">Titre</th>
             <th scope="col" class="rounded">Nom</th>
+            <th scope="col" class="rounded">Prenom</th>
+            <th scope="col" class="rounded">Login</th>
+            <th scope="col" class="rounded">Mot de passe</th>
+            <th scope="col" class="rounded">Date de debut</th>
+            <th scope="col" class="rounded">Email</th>
             <th scope="col" class="rounded">Description</th>
-            <th scope="col" class="rounded">Date de début</th>
-            <th scope="col" class="rounded">Date de fin</th>
-            <th scope="col" class="rounded">Avancement</th>
-            <th scope="col" class="rounded">Auteur</th>
+            <th scope="col" class="rounded">Avatar</th>
+            <th scope="col" class="rounded">Temoignage</th>
             <th scope="col" class="rounded">Edit</th>
             <th scope="col" class="rounded-q4">Delete</th>
         </tr>
@@ -52,7 +54,5 @@
     <div class="pagination">
         <span class="disabled"><< prev</span><span class="current">1</span><a href="">2</a><a href="">3</a><a href="">4</a><a href="">5</a>…<a href="">10</a><a href="">11</a><a href="">12</a>...<a href="">100</a><a href="">101</a><a href="">next >></a>
     </div>
-
-</div><!-- end of right content-->
 
 <?php include_once ("app/view/layout/footer.html") ?>

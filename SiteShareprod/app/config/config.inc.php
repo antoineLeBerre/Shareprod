@@ -8,3 +8,4 @@
 
 define("DEFAULT_MODULE", "admin");
 define("DEFAULT_ACTION", "index");
+define("SALAGE", "shareprod2017");

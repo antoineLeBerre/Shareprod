@@ -10,7 +10,7 @@ function insert_row($table, $tab_valeur)
 		while ($i < sizeof($tab_valeur)) {
 			$query .= key($tab_valeur);
 			if ($i < sizeof($tab_valeur) - 1) {
-				$query .= ",";
+				$query .= ", ";
 			}
 			next($tab_valeur);
 			$i++;
@@ -21,19 +21,19 @@ function insert_row($table, $tab_valeur)
 		while ($j < $i) {
 			$query .= $tab_valeur[key($tab_valeur)];
 			if ($j < $i - 1) {
-				$query .= ",";
+				$query .= ", ";
 			}
 			next($tab_valeur);
 			$j++;
 		}
 		$query .= ")";
 		var_dump($query);
-		die();
 	$cursor = $pdo->exec($query);
+	var_dump($cursor);
 
 	return true;
 	} catch (Exception $e) {
-		return false;
+		return $e->getMessage();
 	}
 	
 }
