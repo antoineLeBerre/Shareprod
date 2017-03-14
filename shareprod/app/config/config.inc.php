@@ -6,6 +6,6 @@
  * Time: 01:31
  */
 
-define("DEFAULT_MODULE", "admin");
+define("DEFAULT_MODULE", "projets");
 define("DEFAULT_ACTION", "index");
 define("SALAGE", "shareprod2017");

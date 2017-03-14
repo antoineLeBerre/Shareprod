@@ -1,4 +1,4 @@
-<?php include_once ("app/view/layout/header.html") ?>
+<?php include_once ("app/view/layout/header_admin.html") ?>
 
 <div class="right_content">
 
@@ -12,6 +12,7 @@
             <th scope="col" class="rounded">Date de début</th>
             <th scope="col" class="rounded">Date de fin</th>
             <th scope="col" class="rounded">Avancement</th>
+            <th scope="col" class="rounded">Mntant maximum</th>
             <th scope="col" class="rounded">Auteur</th>
             <th scope="col" class="rounded">Edit</th>
             <th scope="col" class="rounded-q4">Delete</th>
@@ -34,6 +35,7 @@
                 <td><?= $tabProject["date_debut_projets"] ?></td>
                 <td><?= $tabProject["date_fin_projets"] ?></td>
                 <td><?= $tabProject["avancement_projets"] ?></td>
+                <td><?= $tabProject["financement_max_projets"] ?></td>
                 <td><?= $tabProject["login_users"] ?></td>
                 <td><a href='#'><img src='webroot/images/user_edit.png' lt='' title='' border='0' /></a></td>
                 <td><a href="#" class="ask"><img src="webroot/images/trash.png" alt="" title="" border="0" /></a></td>
@@ -52,4 +54,4 @@
 
 </div><!-- end of right content-->
 
-<?php include_once ("app/view/layout/footer.html") ?>
+<?php include_once ("app/view/layout/footer_admin.html") ?>

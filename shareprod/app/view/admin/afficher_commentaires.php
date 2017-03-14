@@ -1,4 +1,4 @@
-<?php include_once ("app/view/layout/header.html") ?>
+<?php include_once ("app/view/layout/header_admin.html") ?>
 
 <div class="right_content">
 
@@ -44,4 +44,4 @@
 
 </div><!-- end of right content-->
 
-<?php include_once ("app/view/layout/footer.html") ?>
+<?php include_once ("app/view/layout/footer_admin.html") ?>

@@ -6,7 +6,7 @@
  * Time: 16:22
  */
 
-include_once ("app/view/layout/header.html")
+include_once ("app/view/layout/header_admin.html")
 ?>
 
     <div class="form">
@@ -22,8 +22,8 @@ include_once ("app/view/layout/header.html")
                     <dd><input type="text" name="titre_projet" id="" size="54" /></dd>
                 </dl>
                 <dl>
-                    <dt><label for="dexription_projet">Description :</label></dt>
-                    <dd><textarea name="dexription_projet" id="comments" rows="5" cols="36"></textarea></dd>
+                    <dt><label for="description_projet">Description :</label></dt>
+                    <dd><textarea name="description_projet" id="comments" rows="5" cols="36"></textarea></dd>
                 </dl>
                 <dl>
                     <dt><label for="login_projet">Utilisateur :</label></dt>
@@ -35,6 +35,10 @@ include_once ("app/view/layout/header.html")
                         </select>
                     </dd>
                 </dl>
+                <dl>
+                    <dt><label for="montant_projet">Montant Maximum :</label></dt>
+                    <dd><input type="number" name="montant_projet" id="" size="54"/></dd>
+                </dl>
                 <dl class="submit">
                     <input type="submit" name="submit" id="submit" value="Submit" />
                 </dl>
@@ -45,4 +49,4 @@ include_once ("app/view/layout/header.html")
         </form>
     </div>
 
-<?php include_once ("app/view/layout/footer.html") ?>
+<?php include_once ("app/view/layout/footer_admin.html") ?>

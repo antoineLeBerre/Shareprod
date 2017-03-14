@@ -1,4 +1,4 @@
-<?php include_once ("app/view/layout/header.html") ?>
+<?php include_once ("app/view/layout/header_admin.html") ?>
 
 <h3>Table SuperUtilisateurs</h3>
 <table id="rounded-corner" summary="2007 Major IT Companies' Profit">
@@ -39,4 +39,4 @@
 
 <a href="#" class="bt_green"><span class="bt_green_lft"></span><strong>Ajouter un superUser</strong><span class="bt_green_r"></span></a>
 
-<?php include_once ("app/view/layout/footer.html") ?>
+<?php include_once ("app/view/layout/footer_admin.html") ?>

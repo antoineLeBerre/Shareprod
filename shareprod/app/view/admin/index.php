@@ -1,4 +1,4 @@
-<?php include_once ("app/view/layout/header.html") ?>
+<?php include_once ("app/view/layout/header_admin.html") ?>
 
     <div class="right_content">
 
@@ -171,4 +171,4 @@
         <a href="?module=admin&action=afficher_superusers" class="bt_blue"><span class="bt_blue_lft"></span><strong>Afficher la table Superusers</strong><span class="bt_blue_r"></span></a>
     </div><!-- end of right content-->
 
-<?php include_once ("app/view/layout/footer.html") ?>
+<?php include_once ("app/view/layout/footer_admin.html") ?>

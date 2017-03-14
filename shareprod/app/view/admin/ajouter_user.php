@@ -6,7 +6,7 @@
  * Time: 16:22
  */
 
-include_once ("app/view/layout/header.html")
+include_once ("app/view/layout/header_admin.html")
 ?>
 
 <div class="form">
@@ -49,4 +49,4 @@ include_once ("app/view/layout/header.html")
          </form>
 </div>
 
-<?php include_once ("app/view/layout/footer.html") ?>
+<?php include_once ("app/view/layout/footer_admin.html") ?>
