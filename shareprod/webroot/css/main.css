@@ -1,0 +1,18 @@
+@charset "UTF-8"
+
+@media (max-width: 1080px)
+{
+	nav
+	{
+		height: 130px;
+		border-bottom: solid 2px #ae1b1e;
+		padding: 40px;
+	}
+	.logo
+	{
+		background-image: url("assets/img/logo.svg");
+		background-size: cover;
+		width: 150px;
+		height: 100px;
+	}
+}

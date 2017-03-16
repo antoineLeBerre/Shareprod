@@ -9,3 +9,4 @@
 define("DEFAULT_MODULE", "projets");
 define("DEFAULT_ACTION", "index");
 define("SALAGE", "shareprod2017");
+define("NB_PROJETS_PAGE", 6);

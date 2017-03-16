@@ -10,19 +10,12 @@ if (get_magic_quotes_gpc()) $chaine = stripslashes($chaine);
 return $chaine;
 }
 
-
 $message = null;
-
-
 
 if (isset($_POST['nom_user ']))
 {
-
-
     $pseudo = (isset($_POST['nom_user ']) && trim($_POST['nom_user ']) != '')? Verif_magicquotes($_POST['nom_user ']) : null;
     $pass = (isset($_POST['password_user']) && trim($_POST['password_user']) != '')? Verif_magicquotes($_POST['password_user']) : null;
-
-
 
     if(isset($pseudo,$pass))
     {

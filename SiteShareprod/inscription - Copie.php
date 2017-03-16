@@ -2,7 +2,6 @@
 if (isset($_POST['inscription']) && $_POST['inscription'] == 'Inscription') {
 	if ((isset($_POST['login_user']) && !empty($_POST['login_user'])) && (isset($_POST['password_user']) && !empty($_POST['password_user'])) && (isset($_POST['password_user_confirm']) && !empty($_POST['password_user_confirm']))) {
 	if ($_POST['password_user'] != $_POST['password_user_confirm']) {
-
 		$erreur = 'Les 2 mots de passe sont différents.';
 	}
 
@@ -20,7 +19,7 @@ if (isset($_POST['inscription']) && $_POST['inscription'] == 'Inscription') {
 		mysql_query($sql) or die('Erreur SQL !'.$sql.'<br />'.mysql_error());
 
 		session_start();
-		$_SESSION['login_user'] = $_POST['login_user'];
+		$_SESSION['login_users'] = $_POST['login_user'];
 		header('Location: sp_user.php');
 		exit();
 		}
