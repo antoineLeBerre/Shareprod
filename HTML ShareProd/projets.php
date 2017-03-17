@@ -1,7 +1,7 @@
 <?php 
 	include "header.php";
  ?>
- <div class="bgwhite">
+ <div class="content">
  	<h3>Tous les projets</h3>
   	<div class="cat">
  		FILTRER PAR :

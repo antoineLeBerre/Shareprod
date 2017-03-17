@@ -1,18 +1,23 @@
 <?php 
 	include "header.php";
 ?>
-	<h2>Nos partenaires</h2>
-	<div class="listes-partenaires">
-		<div class="partenaire1"></div>
-		<div class="partenaire2"></div>
-		<div class="partenaire3"></div>
-		<div class="partenaire4"></div>
+	<div class="content">
+		<h2>Nos partenaires</h2>
+		<div class="listes-partenaires">
+			<img src="img/bg/partenaire1.jpg" class="partenaire" alt="">
+			<img src="img/bg/partenaire2.jpg" class="partenaire" alt="">
+			<img src="img/bg/partenaire3.png" class="partenaire" alt="">
+			<img src="img/bg/partenaire4.png" class="partenaire" alt="">
+		</div>
+		<div class="pourquoi-partenaire">
+			<div class="img-pourquoi-partenaire"></div>
+			<div class="pourquoi-partenaires-content">
+				<div class="titre-partenaires">Pourquoi devenir partenaire ShareProd ?</div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex deleniti distinctio tempora repudiandae dolores incidunt soluta blanditiis placeat non id nulla itaque pariatur earum quidem animi, sint cumque. Dolore, voluptatem.</p>
+			</div>
+		</div>
+		<a href=""><div class="btn-partenaire btn">Contactez-nous</div></a>
 	</div>
-	<div class="pourquoi-partenaire">
-		<div class="img-pourquoi-partenaire"></div>
-		<p></p>
-	</div>
-	<div class="btn-partenaire">Contactez-nous</div>
 <?php 
 	include "footer.php";
 ?>

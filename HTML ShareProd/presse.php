@@ -1,12 +1,31 @@
 <?php 
 	include "header.php";
 ?>
-	<h2>Presse</h2>
-	Retrouvez tous les articles qui parlent de nous :
-	<div class="article-presse">
-		<img src="" alt="">
-		<div class="titre-presse">Titre</div>
-		<p></p>
+	<div class="content">
+		<h2>Presse</h2>
+		Retrouvez tous les articles qui parlent de nous :
+		<div class="article-presse">
+			<a href=""><img src="img/bg/home.png" alt=""></a>
+			<div class="content-article-presse">
+				<div class="titre-presse">Titre</div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eveniet dolorum, sapiente, possimus harum saepe quod, optio voluptatem iusto incidunt.</p>
+			</div>
+		</div>
+		<div class="article-presse">
+			<a href=""><img src="img/bg/home.png" alt=""></a>
+			<div class="content-article-presse">
+				<div class="titre-presse">Titre</div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eveniet dolorum, sapiente, possimus harum saepe quod, optio voluptatem iusto incidunt.</p>
+			</div>
+		</div>
+		<div class="article-presse">
+			<a href=""><img src="img/bg/home.png" alt=""></a>
+			<div class="content-article-presse">
+				<div class="titre-presse">Titre</div>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint eveniet dolorum, sapiente, possimus harum saepe quod, optio voluptatem iusto incidunt.</p>
+			</div>
+		</div>
+		<a href=""><div class="btn-presse btn">Voir plus</div></a>
 	</div>
 <?php 
 	include "footer.php";
