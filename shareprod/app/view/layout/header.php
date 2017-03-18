@@ -24,6 +24,10 @@
 		</div></a></a>
         <?php if (!isset($_SESSION['sp_user']))
         { ?>
+		<a href="?module=users&action=connexion"><div class="monprofil">
+			<div class="img-monprofil"></div>
+			Mon Profil
+		</div></a>
 		<a href="?module=users&action=connexion"><div class="connexion">
 			<div class="img-connexion"></div>
 			Connexion
