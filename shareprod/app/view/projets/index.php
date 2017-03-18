@@ -36,7 +36,8 @@
                 <div class="nom-projet"><?= $tabProjet{"titre_projets"} ?></div>
                 <p><?= $tabProjet{"texte_miniature"} ?></p>
                 <div class="barre-chargement">
-                    <div class="barre-chargement-avancement"></div>
+                    <?php $avancementProjet = ($tabProjet{"avancement_projets"} - $tabProjet{"financement_max_projets"})*250 ?>
+                    <div class="barre-chargement-avancement" width="<?= $avancementProjet?>"></div>
                 </div>
                 <div class="argent-restant">
                     <div class="img-argent-restant"></div>
