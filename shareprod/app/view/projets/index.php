@@ -9,23 +9,24 @@
  	</div>
  	<div class="voirprojet">
  		 <div class="img-voirprojet"></div>
- 		Je veux financer un projet
- 		<p></p>
- 		<a href="?module=projets&action=projets"><div class="btn-voirprojet">Explorer</div></a>
+ 		<div class="baseline">Je veux financer un projet</div>
+ 		<p>Faites vivre les nombreux projets qui voient le jour grâce à notre système de crowdfunding</p>
+ 		<a href="?module=projets&action=projets"><div class="btn-voirprojet btn">Explorer</div></a>
  	</div>
  	<div class="scroll"></div>
  </div>
  <div id="container2">
- 	<h2>Projet du jour</h2>
+ 	<div class="content-h2"><div class="h2-bordure"></div><h3>Projets du jour</h3><div class="h2-bordure"></div></div>
  	<div class="cat">
  		Filtrer par :
         <?php foreach ($tabCategories as $tabCategory) { ?>
  		<a href="?module=projets&action=projets&cat=<?= $tabCategory["id_cat"] ?>"><div class="cat1">
-            <img src="webroot/icone_cat/<?= $tabCategory["icone_cat"]?>.bmp" alt="">
+            <img src="webroot/img/icons/financement-goal.svg" alt="">
  			<?= $tabCategory["nom_cat"]; ?>
  		</div></a>
         <?php } ?>
  	</div>
+ 	<div class="bandebleu"></div>
 	<div class="projetsdujour">
         <?php foreach ($tabProjets as $tabProjet){
           ?>
@@ -49,25 +50,33 @@
 	</div>
  </div>
  <div id="container3">
- 	<h2>Success-story</h2>
- 	<img src="" alt="">
- 	<img src="" alt="">
- 	<img src="" alt="">
- 	<img src="" alt="">
- 	<a href=""><div class="btn-successstory">Toutes les success-story</div></a>
+ 	<div class="content-h2"><div class="h2-bordure-blanc"></div><h3 class="white">Success-story</h3><div class="h2-bordure-blanc"></div></div>
+ 	<div class="content-success">
+	 	<div class="success1"></div>
+	 	<div class="success2"></div>
+	 	<div class="success3"></div>
+	 	<div class="success4"></div>
+ 	</div>
+ 	<a href=""><div class="btn-successstory btn">+ de success-story</div></a>
  </div>
  <div id="container4">
- 	<h2>Témoignages</h2>
-
- 	<div class="desc-temoignages"></div>
+ 	<div class="content-h2"><div class="h2-bordure-blanc"></div><h3 class="white">Témoignages</h3><div class="h2-bordure-blanc"></div></div>
+ 	<div class="desc-temoignages">Retrouvez les témoignages de ceux qui ont financé leur projet grâce à ShareProd.</div>
  	<div class="temoignage1">
         <?php foreach ($tabUsers as $tabUser) { ?>
- 		<div class="img-temoignage"></div>
- 		<div class="nom-temoignage"><?= $tabUser["prenom_users"]." ".$tabUser["nom_users"] ?></div>
- 		<div class="desc-temoignage"></div>
+        <div class="temoignage-content">
+            <div class="temoignage-info">
+                <img src="webroot/img/bg/success3.png" alt="">
+                <div class="temoignage-identite">
+                    <div class="nom-temoignage"><?= $tabUser["prenom_users"]." ".$tabUser["nom_users"] ?></div>
+                    <div class="nom-projet-temoignage">L'Antenne</div>
+                </div>
+            </div>
+            <div class="desc-temoignage"></div>
+        </div>
         <?php } ?>
  	</div>
- 	<a href=""><div class="btn-temoignages">Tous les témoignages</div></a>
+ 	<a href=""><div class="btn-temoignages btn">+ de témoignages</div></a>
  </div>
 
 <?php include_once ("app/view/layout/footer.php") ?>

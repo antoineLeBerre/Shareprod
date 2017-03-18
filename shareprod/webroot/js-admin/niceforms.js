@@ -8,7 +8,7 @@ Feel free to use and modify but please keep this copyright intact.
 #################################################################*/
 
 //Theme Variables - edit these to match your theme
-var imagesPath = "webroot/img/";
+var imagesPath = "webroot/imgs/";
 var selectRightWidthSimple = 19;
 var selectRightWidthScroll = 2;
 var selectMaxHeight = 200;
@@ -111,10 +111,10 @@ function niceform(nf) {
 }
 function inputText(el) { //extent Text inputs
 	el.oldClassName = el.className;
-	el.left = document.createElement('img');
+	el.left = document.createElement('imgs');
 	el.left.src = imagesPath + "0.png";
 	el.left.className = "NFTextLeft";
-	el.right = document.createElement('img');
+	el.right = document.createElement('imgs');
 	el.right.src = imagesPath + "0.png";
 	el.right.className = "NFTextRight";
 	el.dummy = document.createElement('div');
@@ -185,7 +185,7 @@ function inputRadio(el) { //extent Radio buttons
 }
 function inputCheck(el) { //extend Checkboxes
 	el.oldClassName = el.className;
-	el.dummy = document.createElement('img');
+	el.dummy = document.createElement('imgs');
 	el.dummy.src = imagesPath + "0.png";
 	if(el.checked) {el.dummy.className = "NFCheck NFh";}
 	else {el.dummy.className = "NFCheck";}
@@ -219,10 +219,10 @@ function inputCheck(el) { //extend Checkboxes
 }
 function inputSubmit(el) { //extend Buttons
 	el.oldClassName = el.className;
-	el.left = document.createElement('img');
+	el.left = document.createElement('imgs');
 	el.left.className = "NFButtonLeft";
 	el.left.src = imagesPath + "0.png";
-	el.right = document.createElement('img');
+	el.right = document.createElement('imgs');
 	el.right.src = imagesPath + "0.png";
 	el.right.className = "NFButtonRight";
 	el.onmouseover = function() {
@@ -258,10 +258,10 @@ function inputFile(el) { //extend File inputs
 	el.clone.type = "text";
 	el.clone.className = "NFText";
 	el.clone.ref = el;
-	el.left = document.createElement('img');
+	el.left = document.createElement('imgs');
 	el.left.src = imagesPath + "0.png";
 	el.left.className = "NFTextLeft";
-	el.button = document.createElement('img');
+	el.button = document.createElement('imgs');
 	el.button.src = imagesPath + "0.png";
 	el.button.className = "NFFileButton";
 	el.button.ref = el;
@@ -305,12 +305,12 @@ function textarea(el) { //extend Textareas
 	el.oldClassName = el.className;
 	el.height = el.offsetHeight - textareaTopPadding;
 	el.width = el.offsetWidth - textareaSidePadding;
-	el.topLeft = document.createElement('img');
+	el.topLeft = document.createElement('imgs');
 	el.topLeft.src = imagesPath + "0.png";
 	el.topLeft.className = "NFTextareaTopLeft";
 	el.topRight = document.createElement('div');
 	el.topRight.className = "NFTextareaTop";
-	el.bottomLeft = document.createElement('img');
+	el.bottomLeft = document.createElement('imgs');
 	el.bottomLeft.src = imagesPath + "0.png";
 	el.bottomLeft.className = "NFTextareaBottomLeft";
 	el.bottomRight = document.createElement('div');
@@ -365,7 +365,7 @@ function selects(el) { //extend Selects
 	el.dummy.className = "NFSelect";
 	el.dummy.style.width = el.offsetWidth + 'px';
 	el.dummy.ref = el;
-	el.left = document.createElement('img');
+	el.left = document.createElement('imgs');
 	el.left.src = imagesPath + "0.png";
 	el.left.className = "NFSelectLeft";
 	el.right = document.createElement('div');
@@ -475,12 +475,12 @@ function multiSelects(el) { //extend Multiple Selects
 	el.oldClassName = el.className;
 	el.height = el.offsetHeight;
 	el.width = el.offsetWidth;
-	el.topLeft = document.createElement('img');
+	el.topLeft = document.createElement('imgs');
 	el.topLeft.src = imagesPath + "0.png";
 	el.topLeft.className = "NFMultiSelectTopLeft";
 	el.topRight = document.createElement('div');
 	el.topRight.className = "NFMultiSelectTop";
-	el.bottomLeft = document.createElement('img');
+	el.bottomLeft = document.createElement('imgs');
 	el.bottomLeft.src = imagesPath + "0.png";
 	el.bottomLeft.className = "NFMultiSelectBottomLeft";
 	el.bottomRight = document.createElement('div');

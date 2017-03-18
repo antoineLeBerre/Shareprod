@@ -9,19 +9,19 @@
 </head>
 <body>
 <nav>
-	<a href="#"><div class="logo"></div></a>
-	<div class="start">
+	<a href="?module=projets&action=index"><div class="logo"></div></a>
+	<a href="?module=projets&action=create"><div class="start">
 		<div class="img-start"></div>
 		Lancer un projet
-	</div>
-	<div class="voir">
+        </div></a>
+	<a href="?module=projets&action=projets"><div class="voir">
 		<div class="img-voir"></div>
 		Voir les projets
-	</div>
-	<div class="connexion">
+        </div></a>
+	<a href="?module=users&action=connexion"><div class="connexion">
 		<div class="img-connexion"></div>
 		Connexion
-	</div>
+        </div></a>
 	<div class="recherche">
 		<input type="search" name="search"/>
 		<div class="img-search"></div>

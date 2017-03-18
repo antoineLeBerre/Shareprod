@@ -85,7 +85,7 @@ var ddaccordion={
 		$targetHeader.addClass((state=="expand")? config.cssclass.expand : config.cssclass.collapse) //alternate btw "expand" and "collapse" CSS classes
 		.removeClass((state=="expand")? config.cssclass.collapse : config.cssclass.expand)
 		if (config.htmlsetting.location=='src'){ //Change header image (assuming header is an image)?
-			$targetHeader=($targetHeader.is("img"))? $targetHeader : $targetHeader.find('img').eq(0) //Set target to either header itself, or first image within header
+			$targetHeader=($targetHeader.is("imgs"))? $targetHeader : $targetHeader.find('imgs').eq(0) //Set target to either header itself, or first image within header
 			$targetHeader.attr('src', (state=="expand")? config.htmlsetting.expand : config.htmlsetting.collapse) //change header image
 		}
 		else if (config.htmlsetting.location=="prefix") //if change "prefix" HTML, locate dynamically added ".accordprefix" span tag and change it

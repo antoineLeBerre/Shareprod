@@ -1,4 +1,5 @@
 <?php
+define('BASE_URL', true);
 
 include_once ("app/model/pdo.inc.php");
 include_once ("core/core_view/paginet.php");
@@ -10,11 +11,11 @@ include_once("core/core_model/lire_tables.php");
 //include_once ("core/core_model/delete_rows.php");
 include_once ("core/core_model/insert_row.php");
 include_once("app/config/config.inc.php");
-//include_once ("librairies/secu_sessionStart.php");
+include_once ("librairies/secu_sessionStart.php");
 
-//if (!mySessionStart()) {
-//	die("FAIL");
-//}
+if (!mySessionStart()) {
+	die("FAIL");
+}
 
 if (!isset($_GET["module"])) 
 {
