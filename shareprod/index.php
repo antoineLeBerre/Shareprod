@@ -4,7 +4,7 @@ define('BASE_URL', true);
 include_once ("app/model/pdo.inc.php");
 include_once ("core/core_view/paginet.php");
 ////include_once ("core/core_view/helper.php");
-////include_once ("core/core_controlleur/protection.php");
+include_once ("core/core_controlleur/protection.php");
 include_once ("core/core_controlleur/location.php");
 include_once ("core/core_model/count.php");
 include_once("core/core_model/lire_tables.php");
