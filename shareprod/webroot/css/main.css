@@ -233,7 +233,7 @@ nav a
 	width: 20vh;
 	height: 10vh;
 }
-.start, .voir, .connexion
+.start, .voir, .connexion, .monprofil
 {
 	display: flex;
 	flex-direction: row;
@@ -250,7 +250,7 @@ nav a
 	flex-direction: row;
 	align-items: flex-end;
 }
-  .img-start, .img-voir, .img-connexion, .img-search, .img-deconnexion
+  .img-start, .img-voir, .img-connexion, .img-search, .img-deconnexion, .img-monprofil
   {
   	margin-right: 1vw;
   }
@@ -283,6 +283,13 @@ nav a
   .img-deconnexion
  {
 	background-image: url('webroot/img/icons/logout.svg');
+	background-size: cover;
+	width: 3vh;
+	height: 3vh;
+ }
+  .img-monprofil
+ {
+	background-image: url('webroot/img/icons/monprofil.svg');
 	background-size: cover;
 	width: 3vh;
 	height: 3vh;
