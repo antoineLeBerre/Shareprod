@@ -2,8 +2,7 @@
 	include "header.php";
 ?>
 	<div class="content">
-		<h3>Profil</h3>
-		<div class="profil-detg">
+		<div class="content-h2"><div class="h2-bordure"></div><h3>Profil</h3><div class="h2-bordure"></div></div>
 			<div class="profil">
 				<img src="img/bg/success1.png" alt="">
 				<div class="nom">Frontino Perrault</div>
@@ -27,46 +26,6 @@
 				</div>
 				<div class="btn-profil"></div>
 			</div>
-
-			<div class="profil-producteur">
-				<h4>Mes Contributions</h4>
-				<a href=""><div class="contributions">
-					<img src="img/bg/success1.png" alt="">
-					<div class="projet-contribution">
-						<div class="titre-contribution">Titre du Projet</div>
-						<div class="montant-contribution">15 €</div>
-					</div>
-				</div></a>
-				<a href=""><div class="contributions">
-					<img src="img/bg/success1.png" alt="">
-					<div class="projet-contribution">
-						<div class="titre-contribution">Titre du Projet</div>
-						<div class="montant-contribution">15 €</div>
-					</div>
-				</div></a>
-				<a href=""><div class="contributions">
-					<img src="img/bg/success1.png" alt="">
-					<div class="projet-contribution">
-						<div class="titre-contribution">Titre du Projet</div>
-						<div class="montant-contribution">15 €</div>
-					</div>
-				</div></a>
-				<a href=""><div class="contributions">
-					<img src="img/bg/success1.png" alt="">
-					<div class="projet-contribution">
-						<div class="titre-contribution">Titre du Projet</div>
-						<div class="montant-contribution">15 €</div>
-					</div>
-				</div></a>
-				<a href=""><div class="contributions">
-					<img src="img/bg/success1.png" alt="">
-					<div class="projet-contribution">
-						<div class="titre-contribution">Titre du Projet</div>
-						<div class="montant-contribution">15 €</div>
-					</div>
-				</div></a>
-			</div>
-		</div>
 
 		<div class="profil-createur">
 			<h4>Mes Projets</h4>
@@ -172,7 +131,44 @@
 				<div class="montant-donateur">15 €</div>
 			</div>
 		</div>
-		
+		<div class="profil-producteur">
+				<h4>Mes Contributions</h4>
+				<a href=""><div class="contributions">
+					<img src="img/bg/success1.png" alt="">
+					<div class="projet-contribution">
+						<div class="titre-contribution-profil">Titre du Projet</div>
+						<div class="montant-contribution-profil">15 €</div>
+					</div>
+				</div></a>
+				<a href=""><div class="contributions">
+					<img src="img/bg/success1.png" alt="">
+					<div class="projet-contribution">
+						<div class="titre-contribution-profil">Titre du Projet</div>
+						<div class="montant-contribution-profil">15 €</div>
+					</div>
+				</div></a>
+				<a href=""><div class="contributions">
+					<img src="img/bg/success1.png" alt="">
+					<div class="projet-contribution">
+						<div class="titre-contribution-profil">Titre du Projet</div>
+						<div class="montant-contribution-profil">15 €</div>
+					</div>
+				</div></a>
+				<a href=""><div class="contributions">
+					<img src="img/bg/success1.png" alt="">
+					<div class="projet-contribution">
+						<div class="titre-contribution-profil">Titre du Projet</div>
+						<div class="montant-contribution-profil">15 €</div>
+					</div>
+				</div></a>
+				<a href=""><div class="contributions">
+					<img src="img/bg/success1.png" alt="">
+					<div class="projet-contribution">
+						<div class="titre-contribution-profil">Titre du Projet</div>
+						<div class="montant-contribution-profil">15 €</div>
+					</div>
+				</div></a>
+			</div>
 	</div>
 <?php 
 	include "footer.php";

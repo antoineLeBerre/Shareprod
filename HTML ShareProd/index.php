@@ -1,17 +1,19 @@
-<?php include_once ("app/view/layout/header.php") ?>
+<?php 
+	include "header.php";
+ ?>
 
  <div id="container1">
  	<div class="lancerprojet">
  		<div class="img-lancerprojet"></div>
  		<div class="baseline">Je veux créer ma série</div>
  		<p>Découvrez comment ShareProd vous accompagne pour réussir votre phase de financement</p>
- 		<a href="?module=projets&action=create"><div class="btn-lancerprojet btn">Se lancer</div></a>
+ 		<a href=""><div class="btn-lancerprojet btn">Se lancer</div></a>
  	</div>
  	<div class="voirprojet">
  		 <div class="img-voirprojet"></div>
  		<div class="baseline">Je veux financer un projet</div>
  		<p>Faites vivre les nombreux projets qui voient le jour grâce à notre système de crowdfunding</p>
- 		<a href="?module=projets&action=projets"><div class="btn-voirprojet btn">Explorer</div></a>
+ 		<a href=""><div class="btn-voirprojet btn">Explorer</div></a>
  	</div>
  	<div class="scroll"></div>
  </div>

@@ -2,7 +2,7 @@
 	include "header.php";
  ?>
  <div class="content">
- 	<h3>Tous les projets</h3>
+ 	<div class="content-h2"><div class="h2-bordure"></div><h3>Tous les projets</h3><div class="h2-bordure"></div></div>
   	<div class="cat">
  		FILTRER PAR :
  		<a href=""><div class="cat1">
