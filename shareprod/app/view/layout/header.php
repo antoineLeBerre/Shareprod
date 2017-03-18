@@ -12,13 +12,13 @@
 </head>
 <body>
 <nav>
-	<a href="#"><div class="logo"></div></a>
+	<a href="?module=projets&action=index"><div class="logo"></div></a>
 	<div class="center-nav">
-		<a href=""><div class="start">
+		<a href="?module=projets&action=create"><div class="start">
 			<div class="img-start"></div>
 			Lancer un projet
 		</div></a>
-		<a href=""><div class="voir">
+		<a href="?module=projets&action=projets"><div class="voir">
 			<div class="img-voir"></div>
 			Voir les projets
 		</div></a></a>
@@ -31,7 +31,7 @@
         <?php }
         else
         { ?>
-            <a href="?module=users&action=connexion"><div class="monprofil">
+            <a href="?module=users&action=profil"><div class="monprofil">
                 <div class="img-monprofil"></div>
                 Mon Profil
             </div></a>

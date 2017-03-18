@@ -1,6 +1,4 @@
-<?php 
-	include "header.php";
-?>
+<?php include_once ("app/view/layout/header.php") ?>
 	<div class="resume-detail" style="background-image:url('img/bg/test.jpeg')">
 		<div class="infos-projet-detail">
 				<h1>Nom du projet</h1>
@@ -39,7 +37,7 @@
 			</div>
 		</div>
 	</div>
-
+	
 	<div class="content">
 	<div class="projet-detail-detg">
 		<div class="projet-gauche">
@@ -115,6 +113,4 @@
 		<div class="scroll-top"></div>
 	</div>
 
-<?php
-	include "footer.php";
-?>
+<?php include_once ("app/view/layout/footer.php") ?>

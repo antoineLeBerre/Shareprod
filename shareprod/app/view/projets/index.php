@@ -68,7 +68,7 @@
     <div class="temoignage1">
         <div class="temoignage-content">
             <div class="temoignage-info">
-                <img src="img/bg/success3.png" alt="">
+                <img src="webroot/img/bg/success3.png" alt="">
                 <div class="temoignage-identite">
                     <div class="nom-temoignage">Lucas Duhamel</div>
                     <div class="nom-projet-temoignage">L'Antenne</div>

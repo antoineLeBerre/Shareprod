@@ -7,10 +7,10 @@
 					<div class="txt-menu">Comment ça marche ?</div>
 				</div>
 				<div class="footer-menu">
-					<a href="">Comment ça marche ?</a>
-					<a href="">Qui sommes nous ?</a>
-					<a href="">FAQ</a>
-					<a href="">CGU</a>
+					<a href="?module=autres&action=commentcamarche">Comment ça marche ?</a>
+					<a href="?module=autres&action=equipe">Qui sommes nous ?</a>
+					<a href="?module=autres&action=faq">FAQ</a>
+					<a href="?module=autres&action=cgu">CGU</a>
 				</div>
 			</div>
 			<div class="apsp">
@@ -19,11 +19,11 @@
 					<div class="txt-menu">A Propos de Shareprod</div>
 				</div>
 				<div class="footer-menu">
-					<a href="">A Propos de Shareprod</a>
-					<a href="">Presse</a>
-					<a href="">Partenaires</a>
-					<a href="">Equipe</a>
-					<a href="">Contact</a>
+					<a href="?module=autres&action=">A Propos de Shareprod</a>
+					<a href="?module=autres&action=presse">Presse</a>
+					<a href="?module=autres&action=partenaire">Partenaires</a>
+					<a href="?module=autres&action=equipe">Equipe</a>
+					<a href="?module=autres&action=contact">Contact</a>
 				</div>
 			</div>
 		</div>
