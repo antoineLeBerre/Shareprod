@@ -8,7 +8,7 @@
 	<link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
-	<script type="text/javascript" src="search.js"></script>
+	<script type="text/javascript" src="webroot/js/search.js"></script>
 </head>
 <body>
 <nav>
@@ -24,10 +24,6 @@
 		</div></a></a>
         <?php if (!isset($_SESSION['sp_user']))
         { ?>
-		<a href="?module=users&action=connexion"><div class="monprofil">
-			<div class="img-monprofil"></div>
-			Mon Profil
-		</div></a>
 		<a href="?module=users&action=connexion"><div class="connexion">
 			<div class="img-connexion"></div>
 			Connexion
@@ -35,6 +31,10 @@
         <?php }
         else
         { ?>
+            <a href="?module=users&action=connexion"><div class="monprofil">
+                <div class="img-monprofil"></div>
+                Mon Profil
+            </div></a>
 		<a href="?module=users&action=deconnexion"><div class="connexion">
 			<div class="img-deconnexion"></div>
 			Déconnexion

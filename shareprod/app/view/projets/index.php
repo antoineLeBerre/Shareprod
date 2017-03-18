@@ -31,7 +31,7 @@
         <?php foreach ($tabProjets as $tabProjet){
         ?>
         <a href="?module=projets&action=detail&id=<?= $tabProjet["id_projets"] ?>"><div class="projet1">
-            <img src="webroot/img/bg/success1.png" alt="">
+            <img src="webroot/image_miniature/image1.bmp" alt="">
             <div class="txt-projet">
                 <div class="nom-projet"><?= $tabProjet{"titre_projets"} ?></div>
                 <p><?= $tabProjet{"texte_miniature"} ?></p>
@@ -79,7 +79,7 @@
     <div class="temoignage2">
         <div class="temoignage-content">
             <div class="temoignage-info">
-                <img src="img/bg/success3.png" alt="">
+                <img src="webroot/img/bg/success3.png" alt="">
                 <div class="temoignage-identite">
                     <div class="nom-temoignage">Lucas Duhamel</div>
                     <div class="nom-projet-temoignage">L'Antenne</div>
