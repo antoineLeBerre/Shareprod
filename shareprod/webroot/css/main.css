@@ -12,7 +12,7 @@ body
 	font-family: 'Inconsolata', monospace;
 	color: #a1aab2;
 	padding-top: 10vh;
-	background-image: url("img/bg/background.jpg");
+	background-image: url("webroot/img/bg/background.jpg");
 }
 h1, h2, h3, h4
 {
@@ -35,7 +35,7 @@ h2
 {
 	width: 20px;
 	height: 13px;
-	background-image: url("img/icons/h2-border.svg");
+	background-image: url("webroot/img/icons/h2-border.svg");
 	background-size: cover;
 	margin: 20px;
 }
@@ -43,7 +43,7 @@ h2
 {
 	width: 20px;
 	height: 13px;
-	background-image: url("img/icons/h2-border-blanc.svg");
+	background-image: url("webroot/img/icons/h2-border-blanc.svg");
 	background-size: cover;
 	margin: 20px;
 }
@@ -193,7 +193,7 @@ nav a
 }
 .logo
 {
-	background-image: url("img/logo.svg");
+	background-image: url("webroot/img/logo.svg");
 	background-size: cover;
 	width: 20vh;
 	height: 10vh;
@@ -233,28 +233,28 @@ nav a
  }
 .img-start
 {
-	background-image: url('img/icons/start.svg');
+	background-image: url('webroot/img/icons/start.svg');
 	background-size: cover;
 	width: 3vh;
 	height: 3vh;
 }
 .img-voir
 {
-	background-image: url('img/icons/voir.svg');
+	background-image: url('webroot/img/icons/voir.svg');
 	background-size: cover;
 	width: 3vh;
 	height: 3vh;
 }
  .img-connexion
  {
-	background-image: url('img/icons/user.svg');
+	background-image: url('webroot/img/icons/user.svg');
 	background-size: cover;
 	width: 3vh;
 	height: 3vh;
  }
  .img-search
 {
-	background-image: url('img/icons/search.svg');
+	background-image: url('webroot/img/icons/search.svg');
 	background-size: cover;
 	width: 3vh;
 	height: 3vh;
@@ -340,11 +340,11 @@ input[type=search]
 }
 .img-ccm
 {
-	background-image: url('img/icons/ccm.svg');
+	background-image: url('webroot/img/icons/ccm.svg');
 }
 .img-apsp
 {
-	background-image: url('img/icons/ap.svg');
+	background-image: url('webroot/img/icons/ap.svg');
 }
 .img-ccm, .img-apsp
 {
@@ -361,21 +361,21 @@ input[type=search]
 }
 .facebook
 {
-	background-image: url('img/icons/facebook.svg');
+	background-image: url('webroot/img/icons/facebook.svg');
 	background-size: cover;
 	width: 5vh;
 	height: 5vh;
 }
 .twitter
 {
-	background-image: url('img/icons/twitter.svg');
+	background-image: url('webroot/img/icons/twitter.svg');
 	background-size: cover;
 	width: 5vh;
 	height: 5vh;
 }
 .instagram
 {
-	background-image: url('img/icons/instagram.svg');
+	background-image: url('webroot/img/icons/instagram.svg');
 	background-size: cover;
 	width: 5vh;
 	height: 5vh;
@@ -392,7 +392,7 @@ input[type=search]
 {
 	width: 100%;
 	height: 90vh;
-	background-image: url("img/bg/home.png");
+	background-image: url("webroot/img/bg/home.png");
 	background-size: cover;
 	display: flex;
 }
@@ -440,11 +440,11 @@ input[type=search]
 }
 .img-lancerprojet
 {
-	background-image: url("img/icons/start-blanc.svg");
+	background-image: url("webroot/img/icons/start-blanc.svg");
 }
 .img-voirprojet
 {
-	background-image: url("img/icons/voir-blanc.svg");
+	background-image: url("webroot/img/icons/voir-blanc.svg");
 }
 #container1 p
 {
@@ -494,7 +494,7 @@ input[type=search]
 {
 	width: 310px;
 	height: 460px;
-	background-image: url("img/bg/projet.png");
+	background-image: url("webroot/img/bg/projet.png");
 	background-size: cover;
 	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 	margin : -170px 30px 30px 30px;
@@ -559,7 +559,7 @@ input[type=search]
 {
 	width: 20px;
 	height: 20px;
-	background-image: url("img/icons/financement-goal.svg");
+	background-image: url("webroot/img/icons/financement-goal.svg");
 	background-size: cover;
 	margin-right: 20px;
 }
@@ -574,7 +574,7 @@ input[type=search]
 {
 	width: 20px;
 	height: 20px;
-	background-image: url("img/icons/temps-restant.svg");
+	background-image: url("webroot/img/icons/temps-restant.svg");
 	background-size: cover;
 	margin-right: 20px;
 }
@@ -598,22 +598,22 @@ input[type=search]
 }
 .success1
 {
-	background-image: url("img/bg/success1.png");
+	background-image: url("webroot/img/bg/success1.png");
 	background-size: cover;
 }
 .success2
 {
-	background-image: url("img/bg/success2.png");
+	background-image: url("webroot/img/bg/success2.png");
 	background-size: cover;
 }
 .success3
 {
-	background-image: url("img/bg/success3.png");
+	background-image: url("webroot/img/bg/success3.png");
 	background-size: cover;
 }
 .success4
 {
-	background-image: url("img/bg/success4.png");
+	background-image: url("webroot/img/bg/success4.png");
 	background-size: cover;
 }
 .btn-successstory, .btn-temoignages
@@ -638,12 +638,12 @@ input[type=search]
 }
 .temoignage1
 {
-	background-image: url("img/bg/bulle1.png");
+	background-image: url("webroot/img/bg/bulle1.png");
 	margin-left: 20vw;
 }
 .temoignage2
 {
-	background-image: url("img/bg/bulle2.png");
+	background-image: url("webroot/img/bg/bulle2.png");
 	margin-left: 50vw;
 }
 .temoignage-content
@@ -704,11 +704,11 @@ input[type=search]
 }
 .connexion-bg
 {
-	background-image: url("img/bg/connexion.svg");
+	background-image: url("webroot/img/bg/connexion.svg");
 }
 .inscription-bg
 {
-	background-image: url("img/bg/inscription.svg");
+	background-image: url("webroot/img/bg/inscription.svg");
 }
 .connexion-content, .inscription-content
 {
@@ -749,7 +749,7 @@ input[type=search]
 {
 	color : #1d2228;
 }
-.form-inscription input[type=text], .form-inscription input[type=password], .form-inscription input[type=mail]
+.form-inscription input[type=text], .form-inscription input[type=password], .form-inscription input[type=email]
 {
 	border: solid 2px #3695db;
 }
@@ -814,7 +814,7 @@ input[type=search]
 {
 	width: 30px;
 	height: 30px;
-	background-image: url("img/icons/soutenir.svg");
+	background-image: url("webroot/img/icons/soutenir.svg");
 	background-size: cover;
 	margin-bottom: 10px;
 }
@@ -1061,17 +1061,17 @@ input[type=search]
 	color: #3695db;
 	margin-top: 20px;
 }
-.form-contact input[type=text], .form-contact input[type=password], .form-contact input[type=mail], .form-contact textarea
+.form-contact input[type=text], .form-contact input[type=password], .form-contact input[type=email], .form-contact textarea
 {
 	border : solid 2px #3695db;
 }
 .img-adresse-contact
 {
-	background-image: url("img/icons/adresse.svg");	
+	background-image: url("webroot/img/icons/adresse.svg");	
 }
 .img-numero-contact
 {
-	background-image: url("img/icons/phone.svg");
+	background-image: url("webroot/img/icons/phone.svg");
 }
 .img-adresse-contact, .img-numero-contact
 {
@@ -1114,7 +1114,7 @@ input[type=search]
 {
 	width: 50px;
 	height: 50px;
-	background-image: url("img/icons/partenaires.svg");
+	background-image: url("webroot/img/icons/partenaires.svg");
 	background-size: cover;
 	margin-right: 30px;
 }
@@ -1253,19 +1253,19 @@ input[type=search]
 }
 .img-ddn
 {
-	background-image: url("img/icons/profil-dob.svg");
+	background-image: url("webroot/img/icons/profil-dob.svg");
 }
 .img-adresse
 {
-	background-image: url("img/icons/profil-adresse.svg");
+	background-image: url("webroot/img/icons/profil-adresse.svg");
 }
 .img-telephone
 {
-	background-image: url("img/icons/profil-phone.svg");
+	background-image: url("webroot/img/icons/profil-phone.svg");
 }
 .img-email
 {
-	background-image: url("img/icons/profil-mail.svg");
+	background-image: url("webroot/img/icons/profil-mail.svg");
 }
 .img-ddn, .img-adresse, .img-telephone, .img-email
 {	
@@ -1330,15 +1330,15 @@ input[type=search]
 }
 .img-etape1
 {
-	background-image: url("img/icons/start.svg");
+	background-image: url("webroot/img/icons/start.svg");
 }
 .img-etape2
 {
-	background-image: url("img/icons/start.svg");
+	background-image: url("webroot/img/icons/start.svg");
 }
 .img-etape3
 {
-	background-image: url("img/icons/start.svg");
+	background-image: url("webroot/img/icons/start.svg");
 }
 .img-etape1, .img-etape2, .img-etape3
 {
@@ -1376,7 +1376,7 @@ input[type=search]
 	height: 100px;
 	width: 100px;
 	border-radius: 100px;
-	background-image: url("img/bg/success2.png");
+	background-image: url("webroot/img/bg/success2.png");
 	background-size: cover;
 }
 .nom-createur
@@ -1482,7 +1482,7 @@ input[type=search]
 {
 	width: 50px;
 	height: 50px;
-	background-image: url("img/icons/next.svg");
+	background-image: url("webroot/img/icons/next.svg");
 	background-size: cover;
 	cursor: pointer;
 	margin-top: 30px;
@@ -1491,7 +1491,7 @@ input[type=search]
 {
 	.logo
 	{
-		background-image: url("img/logo-mobile.svg");
+		background-image: url("webroot/img/logo-mobile.svg");
 		width: 8vh;
 		height: 5vh;
 		margin: auto;

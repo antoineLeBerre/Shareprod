@@ -39,7 +39,7 @@
 			</div>
 		</div>
 	</div>
-	
+
 	<div class="content">
 	<div class="projet-detail-detg">
 		<div class="projet-gauche">
@@ -115,6 +115,6 @@
 		<div class="scroll-top"></div>
 	</div>
 
-<?php 
+<?php
 	include "footer.php";
 ?>
