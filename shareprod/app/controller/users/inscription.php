@@ -6,7 +6,6 @@
  * Time: 09:28
  */
 if (!defined("BASE_URL")) die("ressource interdite");
-protection("sp_user", "projets", "index");
 
 if (!isset($_POST["login_user"])){
     include_once ("app/view/admin/ajouter_user.php");

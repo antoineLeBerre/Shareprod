@@ -9,6 +9,14 @@
 	<link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
 	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 	<script type="text/javascript" src="webroot/js/search.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.search_input').autocomplete({
+                serviceUrl: 'autocomplete.php',
+                dataType: 'json'
+            });
+        });
+    </script>
 </head>
 <body>
 <nav>
@@ -42,7 +50,7 @@
         <?php } ?>
 	</div>
 	<div class="recherche">
-		<input type="search" name="search"/>
+		<input type="search" name="search" class="search_input"/>
 		<div class="img-search"></div>
 	</div>
 </nav>

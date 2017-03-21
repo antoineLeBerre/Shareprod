@@ -4,10 +4,10 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>SHAREPROD ADMIN PANEL</title>
     <link rel="stylesheet" type="text/css" href="webroot/css/style-template.css" />
-    <script type="text/javascript" src="webroot/js/clockp.js"></script>
-    <script type="text/javascript" src="webroot/js/clockh.js"></script>
-    <script type="text/javascript" src="webroot/js/jquery.min.js"></script>
-    <script type="text/javascript" src="webroot/js/ddaccordion.js"></script>
+    <script type="text/javascript" src="webroot/js-admin/clockp.js"></script>
+    <script type="text/javascript" src="webroot/js-admin/clockh.js"></script>
+    <script type="text/javascript" src="webroot/js-admin/jquery.min.js"></script>
+    <script type="text/javascript" src="webroot/js-admin/ddaccordion.js"></script>
     <script type="text/javascript">
         ddaccordion.init({
             headerclass: "submenuheader", //Shared CSS class name of headers group
@@ -31,7 +31,7 @@
         })
     </script>
 
-    <script type="text/javascript" src="webroot/js/jconfirmaction.jquery.js"></script>
+    <script type="text/javascript" src="webroot/js-admin/jconfirmaction.jquery.js"></script>
     <script type="text/javascript">
 
         $(document).ready(function() {
@@ -40,7 +40,7 @@
 
     </script>
 
-    <script language="javascript" type="text/javascript" src="webroot/js/niceforms.js"></script>
+    <script language="javascript" type="text/javascript" src="webroot/js-admin/niceforms.js"></script>
     <link rel="stylesheet" type="text/css" media="all" href="webroot/css/niceforms-default.css" />
 
 </head>
@@ -50,7 +50,15 @@
     <div class="header">
         <div class="logo"><a href="#"><img src="webroot/images/logo.gif" alt="" title="" border="0" />test</a></div>
 
-        <div class="right_header">Welcome Admin, <a href="#">Visit site</a> | <a href="#" class="messages">(3) Messages</a> | <a href="#" class="logout">Logout</a></div>
+        <div class="right_header">Welcome Admin, <a href="index.php">Visit site</a> | <a href="#" class="messages">(3) Messages</a> |
+            <?php if (!isset($_SESSION['sp_superuser']))
+        { ?>
+            <a href="?module=admin&action=connexion" class="logout">Log In</a></div>
+        <?php }
+        else
+        { ?>
+            <a href="?module=admin&action=deconnexion" class="logout">Logout</a></div>
+    <?php } ?>
         <div id="clock_a"></div>
     </div>
 

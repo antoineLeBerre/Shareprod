@@ -1,4 +1,4 @@
-<?php include_once ("app/view/layout/header_admin.html") ?>
+<?php include_once ("app/view/layout/header_admin.php") ?>
 
 <div class="right_content">
 

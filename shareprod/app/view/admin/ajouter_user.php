@@ -6,7 +6,7 @@
  * Time: 16:22
  */
 
-include_once ("app/view/layout/header_admin.html")
+include_once ("app/view/layout/header_admin.php")
 ?>
 
 <div class="form">

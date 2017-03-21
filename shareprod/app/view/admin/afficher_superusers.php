@@ -1,4 +1,4 @@
-<?php include_once ("app/view/layout/header_admin.html") ?>
+<?php include_once ("app/view/layout/header_admin.php") ?>
 
 <h3>Table SuperUtilisateurs</h3>
 <table id="rounded-corner" summary="2007 Major IT Companies' Profit">

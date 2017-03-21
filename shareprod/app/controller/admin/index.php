@@ -5,6 +5,11 @@
  * Date: 02/03/2017
  * Time: 23:40
  */
+if (!defined("BASE_URL")) die("ressource interdite");
+
+if (!isset($_SESSION["sp_superuser"])){
+    location("admin", "connexion");
+}
 
 $optionsProjets = ["id_users", "user_id_user"];
 $tablesProjets = ["sp_projets", "sp_users"];
