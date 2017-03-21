@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<title>Barre de recherche</title>
+</head>
+<body>
+  <input type="text" name="" class="search_input" value="search keyword" onclick="this.value=''">
+  <script>
+  $(document).ready(function() {
+  $('.search_input').autocomplete({
+      serviceUrl: 'autocomplete.php',
+      dataType: 'json'
+  });
+});
+  </script>
+</body>
+</html>
