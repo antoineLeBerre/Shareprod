@@ -27,9 +27,7 @@ function insert_row($table, $tab_valeur)
 			$j++;
 		}
 		$query .= ")";
-		var_dump($query);
 	$cursor = $pdo->exec($query);
-	var_dump($cursor);
 
 	return true;
 	} catch (Exception $e) {

@@ -8,7 +8,7 @@
 				</div>
 				<div class="footer-menu">
 					<a href="?module=autres&action=commentcamarche">Comment ça marche ?</a>
-					<a href="?module=autres&action=equipe">Qui sommes nous ?</a>
+					<a href="?module=autres&action=quisommesnous">Qui sommes nous ?</a>
 					<a href="?module=autres&action=faq">FAQ</a>
 					<a href="?module=autres&action=cgu">CGU</a>
 				</div>
@@ -19,9 +19,9 @@
 					<div class="txt-menu">A Propos de Shareprod</div>
 				</div>
 				<div class="footer-menu">
-					<a href="?module=autres&action=">A Propos de Shareprod</a>
+					<a href="?module=autres&action=apropos">A Propos de Shareprod</a>
 					<a href="?module=autres&action=presse">Presse</a>
-					<a href="?module=autres&action=partenaire">Partenaires</a>
+					<a href="?module=autres&action=partenaires">Partenaires</a>
 					<a href="?module=autres&action=equipe">Equipe</a>
 					<a href="?module=autres&action=contact">Contact</a>
 				</div>

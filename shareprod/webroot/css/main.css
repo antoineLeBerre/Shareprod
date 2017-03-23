@@ -80,6 +80,7 @@ input[type=text], input[type=password], input[type=email], textarea, select, inp
 	margin-bottom: 10px;
 	margin-top: 10px;
 	border-radius: 30px;
+	font-family: 'Inconsolata', monospace;
 }
 input[type=file], label
 {
@@ -543,7 +544,7 @@ input[type=search]
 	background-color: #3695db;
 	transform: translateY(170px);
 	z-index: 1;
-	opacity: 0;
+
 }
 .projet1
 {
@@ -558,6 +559,7 @@ input[type=search]
 	text-align: center;
 	cursor: pointer;
 	z-index: 10;
+	color: #a1aab2;
 }
 .projet1:hover
 {
@@ -927,6 +929,7 @@ input[type=search]
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	padding-bottom: 20px;
 }
 .montant-detail
 {
@@ -976,8 +979,8 @@ input[type=search]
 }
 .img-pourcentage-detail, .img-contributeur-detail, .img-joursrestant-detail
 {
-	width: 40px;
-	height: 40px;
+	width: 30px;
+	height: 30px;
 	margin-right: 20px;
 	background-size: cover;
 }
@@ -1563,7 +1566,7 @@ input[type=search]
 {
 	color: #1d2228;
 }
-.btn-suivant-create
+.btn-suivant-create, .btn-suivant-create2
 {
 	width: 50px;
 	height: 50px;
@@ -1571,6 +1574,24 @@ input[type=search]
 	background-size: cover;
 	cursor: pointer;
 	margin-top: 30px;
+}
+.form-create input[type=submit]
+{
+	margin-top: 20px;
+	background-color: #1d2228;
+}
+.btn-ajouter-recompense
+{
+	margin: 20px;
+	width: 40px;
+	height: 40px;
+	background-image: url("../../webroot/img/icons/add.svg");
+	background-size: cover;
+}
+.recompense-create1
+{
+	padding: 20px;
+	border-top: 2px solid #1d2228;
 }
 /*@media (max-width: 1080px)
 {

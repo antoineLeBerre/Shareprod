@@ -6,7 +6,7 @@
         FILTRER PAR :
         <?php foreach ($tabCategories as $tabCategory) { ?>
         <a href="?module=projets&action=projets&cat=<?= $tabCategory["id_cat"] ?>"><div class="cat1">
-                <img src="img/icons/financement-goal.svg" alt=""/>
+                <img src="webroot/img/icons/financement-goal.svg" alt=""/>
                 <?= $tabCategory["nom_cat"]; ?>
             </div></a>
         <?php } ?>
@@ -15,7 +15,7 @@
     <div class="liste-projets">
         <?php while ($i < $affichage) { ?>
         <a href="?module=projets&action=detail&id=<?= $tabProjets[$i]["id_projets"] ?>"><div class="projet1">
-            <img src="img/bg/success1.png" alt="">
+            <img src="webroot/img/bg/success1.png" alt="">
             <div class="txt-projet">
                 <div class="nom-projet"><?= $tabProjets[$i]["titre_projets"] ?></div>
                 <p><?= $tabProjets[$i]["texte_miniature"] ?></p>
@@ -38,7 +38,7 @@
     <div class="liste-projets">
         <?php while ($i < sizeof($tabProjets)) { ?>
         <a href="?module=projets&action=detail&id=<?= $tabProjets[$i]["id_projets"] ?>"><div class="projet1">
-            <img src="img/bg/success1.png" alt="">
+            <img src="webroot/img/bg/success1.png" alt="">
             <div class="txt-projet">
                 <div class="nom-projet"><?= $tabProjets[$i]["titre_projets"] ?></div>
                 <p><?= $tabProjets[$i]["texte_miniature"] ?></p>
