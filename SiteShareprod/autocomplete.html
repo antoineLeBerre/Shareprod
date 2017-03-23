@@ -5,10 +5,12 @@
 <title>Barre de recherche</title>
 </head>
 <body>
-  <input type="text" name="" class="search_input" value="search keyword" onclick="this.value=''">
+  <div class="recherche">
+    <input type="search" name="search">
+  </div>
   <script>
   $(document).ready(function() {
-  $('.search_input').autocomplete({
+  $('[attr=search]').autocomplete({
       serviceUrl: 'autocomplete.php',
       dataType: 'json'
   });
