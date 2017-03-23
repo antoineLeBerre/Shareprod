@@ -5,6 +5,7 @@
  * Date: 03/03/2017
  * Time: 05:49
  */
+if (!defined("BASE_URL")) die("ressource interdite");
 
 $tablesCommentaires = ["sp_projets", "sp_users", "sp_commentaire"];
 $optionsCommentaires = ["id_users", "sp_commentaire.user_id_user", "id_projets", "projets_id_projets"];

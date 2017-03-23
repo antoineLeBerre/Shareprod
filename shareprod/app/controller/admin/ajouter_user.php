@@ -5,7 +5,7 @@
  * Date: 11/03/2017
  * Time: 23:29
  */
-
+if (!defined("BASE_URL")) die("ressource interdite");
 
 if (!isset($_POST["login_user"])){
     include_once ("app/view/admin/ajouter_user.php");

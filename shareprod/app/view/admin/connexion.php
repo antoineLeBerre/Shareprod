@@ -1,13 +1,5 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: user
- * Date: 12/03/2017
- * Time: 16:22
- */
-
-include_once ("app/view/layout/header_admin.php")
-?>
+<?php include_once ("app/view/layout/header_admin.php");
+if (!defined("BASE_URL")) die("ressource interdite"); ?>
 
 <div class="form">
     <form action="?module=admin&action=connexion" method="post" class="niceform">

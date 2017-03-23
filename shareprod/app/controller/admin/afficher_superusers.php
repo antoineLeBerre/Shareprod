@@ -5,6 +5,7 @@
  * Date: 10/03/2017
  * Time: 12:10
  */
+if (!defined("BASE_URL")) die("ressource interdite");
 
 $tabSuperUsers = lire_tables("sp_superusers");
 

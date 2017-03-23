@@ -5,7 +5,7 @@
  * Date: 11/03/2017
  * Time: 23:29
  */
-
+if (!defined("BASE_URL")) die("ressource interdite");
 
 if (!isset($_POST["contenu_commentaire"])){
     $tabUsers = lire_tables("sp_users");

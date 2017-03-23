@@ -1,4 +1,5 @@
-<?php include_once ("app/view/layout/header_admin.php") ?>
+<?php include_once ("app/view/layout/header_admin.php");
+if (!defined("BASE_URL")) die("ressource interdite"); ?>
 
 <div class="right_content">
 
@@ -37,7 +38,7 @@
                 <td><?= $tabProject["avancement_projets"] ?></td>
                 <td><?= $tabProject["financement_max_projets"] ?></td>
                 <td><?= $tabProject["login_users"] ?></td>
-                <td><a href='#'><img src='webroot/images/user_edit.png' lt='' title='' border='0' /></a></td>
+                <td><a href='?module=admin&action=editer_projet&id_projet=<?= $tabProject["id_projets"] ?>'><img src='webroot/images/user_edit.png' lt='' title='' border='0' /></a></td>
                 <td><a href="#" class="ask"><img src="webroot/images/trash.png" alt="" title="" border="0" /></a></td>
             </tr>
         <?php }

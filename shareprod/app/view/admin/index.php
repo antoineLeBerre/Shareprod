@@ -1,4 +1,5 @@
-<?php include_once ("app/view/layout/header_admin.php") ?>
+<?php include_once ("app/view/layout/header_admin.php");
+if (!defined("BASE_URL")) die("ressource interdite"); ?>
 
     <div class="right_content">
 
@@ -37,7 +38,7 @@
                     <td><?= $tableUser["description_users"] ?></td>
                     <td><?= $tableUser["avatar_users"] ?></td>
                     <td><?= $tableUser["temoignage_users"] ?></td>
-                    <td><a href='#'><img src='webroot/images/user_edit.png' alt='Bouton editer' title='' border='0' /></a></td>
+                    <td><a href='?module=admin&action=editer_user&id_user=<?= $tableUser["id_users"] ?>'><img src='webroot/images/user_edit.png' alt='Bouton editer' title='' border='0' /></a></td>
                     <td><a href="#" class="ask"><img src="webroot/images/trash.png" alt="" title="" border="0" /></a></td>
                 </tr>
             <?php }
@@ -81,7 +82,7 @@
                     <td><?= $tabProject["date_fin_projets"] ?></td>
                     <td><?= $tabProject["avancement_projets"] ?></td>
                     <td><?= $tabProject["login_users"] ?></td>
-                    <td><a href='#'><img src='webroot/images/user_edit.png' lt='' title='' border='0' /></a></td>
+                    <td><a href='?module=admin&action=editer_projet&id_projet=<?= $tabProject["id_projets"] ?>'><img src='webroot/images/user_edit.png' lt='' title='' border='0' /></a></td>
                     <td><a href="#" class="ask"><img src="webroot/images/trash.png" alt="" title="" border="0" /></a></td>
                 </tr>
             <?php }
@@ -119,7 +120,7 @@
                     <td><?= $tabCommentaire["date_commentaire"] ?></td>
                     <td><?= $tabCommentaire["login_users"] ?></td>
                     <td><?= $tabCommentaire["nom_projets"] ?></td>
-                    <td><a href='#'><img src='webroot/images/user_edit.png' lt='' title='' border='0' /></a></td>
+                    <td><a href='?module=admin&action=editer_commentaire&id_commentaire=<?= $tabCommentaire["id_commentaire"] ?>'><img src='webroot/images/user_edit.png' lt='' title='' border='0' /></a></td>
                     <td><a href="#" class="ask"><img src="webroot/images/trash.png" alt="" title="" border="0" /></a></td>
                 </tr>
             <?php }
@@ -156,10 +157,10 @@
                     <td><?= $tabSuperUser["prenom_superusers"] ?></td>
                     <td><?= $tabSuperUser["login_superusers"] ?></td>
                     <td><?= $tabSuperUser["password_superusers"] ?></td>
-                    <td><?= $tabSuperUser["date_inscription_superusers"] ?></td>
+                    <td><?= $tabSuperUser["date_inscription_superuser"] ?></td>
                     <td><?= $tabSuperUser["email_superusers"] ?></td>
                     <td><?= $tabSuperUser["level_superusers"] ?></td>
-                    <td><a href='#'><img src='webroot/images/user_edit.png' alt='Bouton editer' title='' border='0' /></a></td>
+                    <td><a href='?module=admin&action=editer_superuser&id_superuser=<?= $tabSuperUser["id_superusers"] ?>'><img src='webroot/images/user_edit.png' alt='Bouton editer' title='' border='0' /></a></td>
                     <td><a href="#" class="ask"><img src="webroot/images/trash.png" alt="" title="" border="0" /></a></td>
                 </tr>
             <?php }

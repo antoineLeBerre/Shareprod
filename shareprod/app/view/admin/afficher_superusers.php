@@ -1,4 +1,5 @@
-<?php include_once ("app/view/layout/header_admin.php") ?>
+<?php include_once ("app/view/layout/header_admin.php");
+if (!defined("BASE_URL")) die("ressource interdite"); ?>
 
 <h3>Table SuperUtilisateurs</h3>
 <table id="rounded-corner" summary="2007 Major IT Companies' Profit">
@@ -29,7 +30,7 @@
             <td><?= $tabSuperUser["date_inscription_superuser"] ?></td>
             <td><?= $tabSuperUser["email_superusers"] ?></td>
             <td><?= $tabSuperUser["level_superusers"] ?></td>
-            <td><a href='#'><img src='webroot/images/user_edit.png' alt='Bouton editer' title='' border='0' /></a></td>
+            <td><a href='?module=admin&action=editer_superuser&id_superuser=<?= $tabSuperUser["id_superusers"] ?>'><img src='webroot/images/user_edit.png' alt='Bouton editer' title='' border='0' /></a></td>
             <td><a href="#" class="ask"><img src="webroot/images/trash.png" alt="" title="" border="0" /></a></td>
         </tr>
     <?php }
