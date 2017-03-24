@@ -16,12 +16,14 @@ if (isset($_SESSION["sp_user"])){
 
 
         $tabProjets = lire_tables("sp_projets", array("ORDER BY" => "id_projets", "ORDER" => "DESC"));
-        $insererMiniature = insert_row("sp_miniature", array("nom_miniature"=>"'".$_POST["nom_create"]."'", "titre_miniature"=>"'".$_POST["titre_create"]."'", "sp_projets_id_projets"=>"'".$tabProjets[0]["id_projets"]."'"));
-        $insererContribution11 = insert_row("sp_contributions", array("contrib_titre"=>"'".$_POST["nom_valeur_create1"]."'", "contrib_descr"=>"'".$_POST["descr_valeur_create1"]."'", "contrib_somme"=>"'".$_POST["valeur_create1"]."'","projets_id_projets"=>"'".$tabProjets[0]["id_projets"]."'"));
-        $insererContribution12 = insert_row("sp_contributions", array("contrib_titre"=>"'".$_POST["nom_valeur_create2"]."'", "contrib_descr"=>"'".$_POST["descr_valeur_create2"]."'", "contrib_somme"=>"'".$_POST["valeur_create2"]."'","projets_id_projets"=>"'".$tabProjets[0]["id_projets"]."'"));
-       $insererContribution13 = insert_row("sp_contributions", array("contrib_titre"=>"'".$_POST["nom_valeur_create3"]."'", "contrib_descr"=>"'".$_POST["descr_valeur_create3"]."'", "contrib_somme"=>"'".$_POST["valeur_create3"]."'","projets_id_projets"=>"'".$tabProjets[0]["id_projets"]."'"));
+        $insererMiniature = insert_row("sp_miniature", array("texte_miniature"=>"'".$_POST["nom_create"]."'", "titre_miniature"=>"'".$_POST["titre_create"]."'", "sp_projets_id_projets"=>"'".$tabProjets[0]["id_projets"]."'"));
+        $insererContribution1 = insert_row("sp_contributions", array("contrib_titre"=>"'".$_POST["nom_valeur_create1"]."'", "contrib_descr"=>"'".$_POST["descr_valeur_create1"]."'", "contrib_somme"=>"'".$_POST["valeur_create1"]."'","projets_id_projets"=>"'".$tabProjets[0]["id_projets"]."'"));
+        $insererContribution2 = insert_row("sp_contributions", array("contrib_titre"=>"'".$_POST["nom_valeur_create2"]."'", "contrib_descr"=>"'".$_POST["descr_valeur_create2"]."'", "contrib_somme"=>"'".$_POST["valeur_create2"]."'","projets_id_projets"=>"'".$tabProjets[0]["id_projets"]."'"));
+       $insererContribution3 = insert_row("sp_contributions", array("contrib_titre"=>"'".$_POST["nom_valeur_create3"]."'", "contrib_descr"=>"'".$_POST["descr_valeur_create3"]."'", "contrib_somme"=>"'".$_POST["valeur_create3"]."'","projets_id_projets"=>"'".$tabProjets[0]["id_projets"]."'"));
+        $insererCat = insert_row("sp_cat_has_sp_projets", array("sp_projets_id_projets"=>"'".$tabProjets[0]["id_projets"]."'", "sp_cat_id_cat"=>"'".$_POST["cat_create"]."'"));
 
-       if (!$insererProjet || !$insererMiniature || !$insererContribution11 || !$insererContribution12 || !$insererContribution13){
+
+       if (!$insererProjet || !$insererMiniature || !$insererContribution1 || !$insererContribution2 || !$insererContribution3){
            location("projets", "create", "insert=nok");
        }
         location("projets", "detail", "id=".$tabProjets[0]['id_projets']."&insert=ok");

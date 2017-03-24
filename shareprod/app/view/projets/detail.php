@@ -15,10 +15,10 @@ if (!defined("BASE_URL")) die("ressource interdite");
                 </div>
             <?php } ?>
 		</div>
-		<div class="btn-soutenir-detail">
+		<a href="?module=payment&action=finance&id=<?= $_GET["id"] ?>"><div class="btn-soutenir-detail">
 			<div class="img-btn-soutenir-detail"></div>
 			Soutenir
-		</div>
+		</div></a>
 		<div class="content-chiffres-detail">
 			<div class="chiffres-projet-detail">
 				<div class="montant-detail">
